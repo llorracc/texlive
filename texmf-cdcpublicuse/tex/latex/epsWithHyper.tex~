@@ -1,0 +1,6 @@
+\usepackage[pdftex]{graphicx}\usepackage{epstopdf} \input HyperrefSetupPDF.tex
+\newcommand{\wideMargins}{\input wideMargins.tex}
+
+\provideboolean{bigPrint}\setboolean{bigPrint}{false}
+
+

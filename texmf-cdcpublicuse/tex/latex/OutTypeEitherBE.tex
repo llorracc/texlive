@@ -1,0 +1,24 @@
+% Default is to make a PDF version
+\provideboolean{PDFOut}\setboolean{PDFOut}{true}
+\provideboolean{HTMOut}\setboolean{HTMOut}{false}
+
+\ifdvi
+    \setboolean{PDFOut}{false}\setboolean{HTMOut}{true}
+    \RequirePackage{tex4ht}
+    \RequirePackage{graphicx}
+    \RequirePackage[tex4ht]{hyperref}
+    % Wide margins doesn't mean anything for html documents; nullify
+    \newcommand{\wideMargins}{\null{}}                    
+    \provideboolean{bigPrint}\setboolean{bigPrint}{true}  % HTM output looks much better in a larger font size
+    \newcommand{\CDCFig}[1]{\includegraphics{#1}}
+    \DeclareGraphicsExtensions{.png}
+\else
+    \setboolean{PDFOut}{true}\setboolean{HTMOut}{false}
+    \RequirePackage[pdftex]{graphicx}
+    \usepackage[pdftex,plainpages=false]{hyperref}
+    \input HyperrefSetupPDF.tex
+    \newcommand{\CDCFig}[1]{\includegraphics[width=0.9\textwidth]{../Figures/#1}}
+    \DeclareGraphicsExtensions{.pdf}
+\fi
+
+

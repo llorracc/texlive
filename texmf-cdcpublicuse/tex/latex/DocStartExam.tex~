@@ -1,0 +1,6 @@
+
+\usepackage{examCDC}
+\provideboolean{AnswersTF}\setboolean{AnswersTF}{false}
+
+\opt{Answers}{\setboolean{AnswersTF}{true}}
+

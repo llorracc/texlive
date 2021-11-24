@@ -1,0 +1,21 @@
+\usepackage[pdftex]{graphicx}
+\usepackage{hyperref}
+\definecolor{darkblue}{rgb}{0.055,0.094,0.3}
+\definecolor{darkred}{rgb}{0.3,0,0}
+\hypersetup{colorlinks=true,           % put a box around links
+            linkbordercolor = {1 0 0}, % the box will be red
+            pdfborder = {1 0 0},       % the box will be red
+            bookmarks=true,            % or false
+            urlcolor=darkred,
+            citecolor=darkblue,
+            linkcolor=darkred,
+            pdffitwindow = false,     % Don't rescale to fit size of window
+            pdfpagemode=UseThumbs,
+            pdfstartview=FitH,
+            pdfauthor={Christopher D. Carroll},
+            pdfnewwindow = true,       % Links open in new window
+            pdfproducer = {pdfLaTeX with hyperref},
+            pdfcreator = {ccarroll@jhu.edu},
+            }
+\providecommand{\CDCFig}[1]{\includegraphics[width=1\textwidth]{../Figures/#1.pdf}}
+\DeclareGraphicsExtensions{.pdf}

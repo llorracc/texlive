@@ -1,0 +1,343 @@
+%!PS-Adobe-3.0
+%%Creator: groff version 1.06
+%%DocumentNeededResources: font Times-Roman
+%%+ font Times-Bold
+%%+ font Times-Italic
+%%DocumentSuppliedResources: procset grops 1.06 0
+%%Pages: 1
+%%PageOrder: Ascend
+%%Orientation: Portrait
+%%EndComments
+%%BeginProlog
+%%BeginResource: procset grops 1.06 0
+
+/setpacking where {
+	pop
+	currentpacking
+	true setpacking
+} if
+
+/grops 120 dict dup begin 
+
+% The ASCII code of the space character.
+/SC 32 def
+
+/A /show load def
+/B { 0 SC 3 -1 roll widthshow } bind def
+/C { 0 exch ashow } bind def
+/D { 0 exch 0 SC 5 2 roll awidthshow } bind def
+/E { 0 rmoveto show } bind def
+/F { 0 rmoveto 0 SC 3 -1 roll widthshow } bind def
+/G { 0 rmoveto 0 exch ashow } bind def
+/H { 0 rmoveto 0 exch 0 SC 5 2 roll awidthshow } bind def
+/I { 0 exch rmoveto show } bind def
+/J { 0 exch rmoveto 0 SC 3 -1 roll widthshow } bind def
+/K { 0 exch rmoveto 0 exch ashow } bind def
+/L { 0 exch rmoveto 0 exch 0 SC 5 2 roll awidthshow } bind def
+/M { rmoveto show } bind def
+/N { rmoveto 0 SC 3 -1 roll widthshow } bind def
+/O { rmoveto 0 exch ashow } bind def
+/P { rmoveto 0 exch 0 SC 5 2 roll awidthshow } bind def
+/Q { moveto show } bind def 
+/R { moveto 0 SC 3 -1 roll widthshow } bind def
+/S { moveto 0 exch ashow } bind def
+/T { moveto 0 exch 0 SC 5 2 roll awidthshow } bind def
+
+% name size font SF -
+
+/SF {
+	findfont exch
+	[ exch dup 0 exch 0 exch neg 0 0 ] makefont
+	dup setfont
+	[ exch /setfont cvx ] cvx bind def
+} bind def
+
+% name a c d font MF -
+
+/MF {
+	findfont
+	[ 5 2 roll
+	0 3 1 roll % b
+	neg 0 0 ] makefont
+	dup setfont
+	[ exch /setfont cvx ] cvx bind def
+} bind def
+
+/level0 0 def
+/RES 0 def
+/PL 0 def
+/LS 0 def
+
+% Guess the page length.
+% This assumes that the imageable area is vertically centered on the page.
+% PLG - length
+
+/PLG {
+	gsave newpath clippath pathbbox grestore
+	exch pop add exch pop
+} bind def
+
+% BP -
+
+/BP {
+	/level0 save def
+	1 setlinecap
+	1 setlinejoin
+	72 RES div dup scale
+	LS {
+		90 rotate
+	} {
+		0 PL translate
+	} ifelse
+	1 -1 scale
+} bind def
+
+/EP {
+	level0 restore
+	showpage
+} bind def
+
+
+% centerx centery radius startangle endangle DA -
+
+/DA {
+	newpath arcn stroke
+} bind def
+
+% x y SN - x' y'
+% round a position to nearest (pixel + (.25,.25))
+
+/SN {
+	transform 
+	.25 sub exch .25 sub exch
+	round .25 add exch round .25 add exch
+	itransform
+} bind def
+	
+% endx endy startx starty DL -
+% we round the endpoints of the line, so that parallel horizontal
+% and vertical lines will appear even
+
+/DL {
+	SN
+	moveto
+	SN
+	lineto stroke
+} bind def
+
+% centerx centery radius DC -
+
+/DC {
+	newpath 0 360 arc closepath
+} bind def
+
+
+/TM matrix def
+
+%  width height centerx centery DE -
+
+/DE {
+	TM currentmatrix pop
+	translate scale newpath 0 0 .5 0 360 arc closepath
+	TM setmatrix
+} bind def
+
+% these are for splines
+
+/RC /rcurveto load def
+/RL /rlineto load def
+/ST /stroke load def
+/MT /moveto load def
+/CL /closepath load def
+
+% fill the last path
+
+% amount FL -
+
+/FL {
+	currentgray exch setgray fill setgray
+} bind def
+
+% fill with the ``current color''
+
+/BL /fill load def
+
+/LW /setlinewidth load def
+% new_font_name encoding_vector old_font_name RE -
+
+/RE {
+	findfont
+	dup maxlength dict begin
+	{
+		1 index /FID ne { def } { pop pop } ifelse
+	} forall
+	/Encoding exch def
+	dup /FontName exch def
+	currentdict end definefont pop
+} bind def
+
+/DEFS 0 def
+
+% hpos vpos EBEGIN -
+
+/EBEGIN {
+	moveto
+	DEFS begin
+} bind def
+
+/EEND /end load def
+
+/CNT 0 def
+/level1 0 def
+
+% llx lly newwid wid newht ht newllx newlly PBEGIN -
+
+/PBEGIN {
+	/level1 save def
+	translate
+	div 3 1 roll div exch scale
+	neg exch neg exch translate
+	% set the graphics state to default values
+	0 setgray
+	0 setlinecap
+	1 setlinewidth
+	0 setlinejoin
+	10 setmiterlimit
+	[] 0 setdash
+	/setstrokeadjust where {
+		pop
+		false setstrokeadjust
+	} if
+	/setoverprint where {
+		pop
+		false setoverprint
+	} if
+	newpath
+	/CNT countdictstack def
+	userdict begin
+	/showpage {} def
+} bind def
+
+/PEND {
+	clear
+	countdictstack CNT sub { end } repeat
+	level1 restore
+} bind def
+
+end def
+
+/setpacking where {
+	pop
+	setpacking
+} if
+%%EndResource
+%%IncludeResource: font Times-Roman
+%%IncludeResource: font Times-Bold
+%%IncludeResource: font Times-Italic
+grops begin/DEFS 1 dict def DEFS begin/u{.001 mul}bind def end/RES 72 def/PL
+792 def/LS false def/ENC0[/asciicircum/asciitilde/Scaron/Zcaron/scaron/zcaron
+/Ydieresis/trademark/quotesingle/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/space
+/exclam/quotedbl/numbersign/dollar/percent/ampersand/quoteright/parenleft
+/parenright/asterisk/plus/comma/hyphen/period/slash/zero/one/two/three/four
+/five/six/seven/eight/nine/colon/semicolon/less/equal/greater/question/at/A/B/C
+/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft/backslash
+/bracketright/circumflex/underscore/quoteleft/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q
+/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright/tilde/.notdef/quotesinglbase
+/guillemotleft/guillemotright/bullet/florin/fraction/perthousand/dagger
+/daggerdbl/endash/emdash/ff/fi/fl/ffi/ffl/dotlessi/dotlessj/grave/hungarumlaut
+/dotaccent/breve/caron/ring/ogonek/quotedblleft/quotedblright/oe/lslash
+/quotedblbase/OE/Lslash/.notdef/exclamdown/cent/sterling/currency/yen/brokenbar
+/section/dieresis/copyright/ordfeminine/guilsinglleft/logicalnot/minus
+/registered/macron/degree/plusminus/twosuperior/threesuperior/acute/mu
+/paragraph/periodcentered/cedilla/onesuperior/ordmasculine/guilsinglright
+/onequarter/onehalf/threequarters/questiondown/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute
+/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla/egrave/eacute
+/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis/eth/ntilde/ograve
+/oacute/ocircumflex/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis]def/Times-Italic@0 ENC0/Times-Italic RE
+/Times-Bold@0 ENC0/Times-Bold RE/Times-Roman@0 ENC0/Times-Roman RE
+%%EndProlog
+%%Page: 1 1
+%%BeginPageSetup
+BP
+%%EndPageSetup
+/F0 10/Times-Roman@0 SF(BIBEXTRA)72 48 Q 317.42(CT\(1\) BIBEXTRA)-.4 F(CT\(1\))
+-.4 E/F1 9/Times-Bold@0 SF -.18(NA)72 84 S(ME).18 E F0(bibe)108 96 Q
+(xtract \255 e)-.15 E(xtract BibT)-.15 E
+(eX entries from a list of .bib \214les)-.7 E F1(SYNOPSIS)72 112.8 Q/F2 10
+/Times-Bold@0 SF(bibextract)108 124.8 Q/F3 10/Times-Italic@0 SF -.1(ke)2.5 G
+(ywor)-.2 E(d-r)-.37 E -1.8 -.4(eg e)-.37 H(xp value-r).2 E -1.8 -.4(eg e)-.37
+H(xp bib\214le\(s\)).2 E F1(DESCRIPTION)72 141.6 Q F2(bibextract)108 153.6 Q F0
+-.15(ex)2.791 G .291(tracts from a list of B).15 F/F4 8/Times-Roman@0 SF(IB)A
+F0(T)A(E)-1.667 2.4 M(X)-1.25 -2.4 M F3(.bib)2.791 E F0 .291
+(\214les those bibliograph)2.791 F 2.791(ye)-.05 G .291
+(ntries that match a pair of speci\214ed)397.724 153.6 R(re)108 165.6 Q 5.033
+(gular e)-.15 F 5.033(xpressions, sending them to)-.15 F F3(stdout)7.533 E F0
+7.533(,t).68 G 5.033(ogether with all B)319.678 165.6 R F4(IB)A F0(T)A(E)-1.667
+2.4 M 7.534(X`)-1.25 -2.4 O -.834(`@Preamble{. . .}')441.364 165.6 R 7.534('a)
+-.74 G(nd)530 165.6 Q -.74(``)108 177.6 S -.834(@String{. . .}').74 F 2.5('c)
+-.74 G(ommands.)180.872 177.6 Q .408(The \214rst re)108 194.4 R(gular)-.15 E
+(-e)-.2 E .407(xpression pattern,)-.15 F F3 -.1(ke)2.907 G(ywor)-.2 E(d-r)-.37
+E -1.8 -.4(eg e)-.37 H(xp).2 E F0 2.907(,i).19 G 2.907(su)325.887 194.4 S .407
+(sed to select which)337.684 194.4 R F3 -1.11(``)5.407 G -.1(ke)1.11 G(ywor)-.2
+E 2.907(d=")-.37 G(value"')475.556 194.4 Q(')-1.11 E F0 .407(pairs to)2.907 F
+-.15(ex)108 206.4 S .727(amine further; it matches ag).15 F .727(ainst the k)
+-.05 F -.15(ey)-.1 G -.1(wo).15 G .727(rd part only).1 F 5.727(.I)-.65 G 3.227
+(fi)355.243 206.4 S 3.227(ti)364.58 206.4 S 3.227(sa)373.367 206.4 S 3.228(ne)
+384.924 206.4 S .728(mpty string, then all such pairs are)397.592 206.4 R -.15
+(ex)108 218.4 S(amined.).15 E 1.775(The second re)108 235.2 R(gular)-.15 E(-e)
+-.2 E 1.775(xpression pattern,)-.15 F F3(value-r)4.275 E -1.8 -.4(eg e)-.37 H
+(xp).2 E F0 4.274(,i).19 G 4.274(su)333.484 235.2 S 1.774
+(sed to further select from the v)346.648 235.2 R 1.774(alue strings of)-.25 F
+F3 -1.11(``)108 247.2 S -.1(ke)1.11 G(ywor)-.2 E 2.576(d=")-.37 G(value"')
+162.762 247.2 Q(')-1.11 E F0 .076(pairs the bibliograph)2.576 F 2.576(ye)-.05 G
+.076(ntries to be output.)291.636 247.2 R .077
+(The selection algorithm therefore consists)5.077 F
+(of the logical AND of match successes ag)108 259.2 Q(ainst the k)-.05 E -.15
+(ey)-.1 G -.1(wo).15 G(rd and v).1 E(alue strings.)-.25 E F2(bibextract)108 276
+Q F0 1.809(can be used to e)4.31 F 1.809(xtract from a lar)-.15 F 1.809(ge B)
+-.18 F F4(IB)A F0(T)A(E)-1.667 2.4 M 4.309(Xb)-1.25 -2.4 O(ibliograph)351.345
+276 Q 4.309(yd)-.05 G 1.809(ata base just those bibliograph)406.714 276 R(y)
+-.05 E(entries that match a particular pair of re)108 288 Q(gular e)-.15 E
+(xpressions.)-.15 E F1(EXAMPLES)72 304.8 Q F0(Here are some e)108 316.8 Q
+(xamples:)-.15 E(Extract all entries mentioning chaos in an)108 333.6 Q 2.5
+<798c>-.15 G(eld:)287 333.6 Q F2(bibextract)144 350.4 Q F3("" "c)2.5 E
+(haos" bib\214le\(s\) >ne)-.15 E(w-bibte)-.15 E(x-\214le")-.2 E F0
+(Extract entries with names Bro)108 367.2 Q
+(wn or Smith occurring in either of the author or editor \214elds:)-.25 E F2
+(bibextract)144 384 Q F3("author|editor" "br)2.5 E
+(own|smith" bib\214le\(s\) >ne)-.45 E(w-bibte)-.15 E(x-\214le)-.2 E F0 .502
+(Extract entries for titles containing the letter `z' an)108 400.8 R .502
+(ywhere after a v)-.15 F -.25(ow)-.2 G .503
+(el; note that single quotes are neces-).25 F(sary to pro)108 412.8 Q
+(vide the necessary protection from shell e)-.15 E(xpansion:)-.15 E F2
+(bibextract)144 429.6 Q F3("title" '[aeiou].*z' bib\214le\(s\) >ne)2.5 E
+(w-bibte)-.15 E(x-\214le)-.2 E F1 -.09(BU)72 446.4 S(GS).09 E F2(bibextract)108
+458.4 Q F0 .244(is not smart enough to incorporate B)2.745 F F4(IB)A F0(T)A(E)
+-1.667 2.4 M 2.744(Xc)-1.25 -2.4 O .244(ross references unless the)333.896
+458.4 R 2.744(ya)-.15 G .244(re themselv)448.572 458.4 R .244(es matched)-.15 F
+(by the speci\214ed re)108 470.4 Q(gular e)-.15 E(xpression.)-.15 E
+(That feature should be added.)108 487.2 Q F1(SEE ALSO)72 504 Q F2(bibclean)108
+516 Q F0(\(1\),)A F2(bibindex)2.5 E F0(\(1\),)A F2(biblook)2.5 E F0(\(1\),)A F2
+(bibsort)2.5 E F0(\(1\),)A F2(bibtex)2.5 E F0(\(1\),)A F2(cite\214nd)2.5 E F0
+(\(1\),)A F2(citetags)2.5 E F0(\(1\),)A F2(latex)2.5 E F0(\(1\),)A F2(nawk)2.5
+E F0(\(1\).)A F1(FILES)72 532.8 Q F0(/usr/local/lib/bibe)108 544.8 Q
+(xtract/bibe)-.15 E(xtract.a)-.15 E(wk)-.15 E F2(nawk)272.81 544.8 Q F0
+(\(1\) program for tag e)A(xtraction.)-.15 E(/usr/local/bin/bibe)108 561.6 Q
+66.91(xtract user)-.15 F(-callable shell script to in)-.2 E -.2(vo)-.4 G -.1
+(ke).2 G F2(nawk)2.6 E F0(\(1\).)A F1 -.45(AU)72 578.4 S(THOR).45 E F0
+(Nelson H. F)108 590.4 Q 2.5(.B)-.8 G(eebe, Ph.D.)167.48 590.4 Q
+(Center for Scienti\214c Computing)108 602.4 Q(Department of Mathematics)108
+614.4 Q(Uni)108 626.4 Q -.15(ve)-.25 G(rsity of Utah).15 E(Salt Lak)108 638.4 Q
+2.5(eC)-.1 G(ity)155.12 638.4 Q 2.5(,U)-.65 G 2.5(T8)177.25 638.4 S(4112)190.86
+638.4 Q(USA)108 650.4 Q -.7(Te)108 662.4 S(l: +1 801 581 5254).7 E -.74(FA)108
+674.4 S(X: +1 801 581 4148).74 E(Email: <beebe@math.utah.edu>)108 686.4 Q -1.11
+(Ve)72 768 S(rsion 1.02)1.11 E(30 October 1992)272.395 768 Q(1)535 768 Q EP
+%%Trailer
+end
+%%EOF

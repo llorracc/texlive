@@ -1,0 +1,8 @@
+% For figures in EPS form; does not seem to work with figures containing Mathematica fonts (2008/02/24)
+
+\usepackage{tex4ht}\usepackage[dvips]{graphicx}\usepackage{endnotes} \input HyperrefSetup.tex
+\newcommand{\wideMargins}{\null{}} % Wide margins doesn't mean anything for html documents
+
+
+\provideboolean{bigPrint}\setboolean{bigPrint}{false}
+

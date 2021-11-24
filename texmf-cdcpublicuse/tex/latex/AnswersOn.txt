@@ -1,0 +1,5 @@
+\provideboolean{ShowAnswers}
+\setboolean{ShowAnswers}{true}
+
+\provideboolean{AnswersTF}
+\setboolean{AnswersTF}{true}

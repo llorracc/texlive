@@ -1,0 +1,23 @@
+\usepackage[pdftex,plainpages=false]{hyperref}
+\definecolor{darkblue}{rgb}{0.055,0.094,0.3}
+\definecolor{darkred}{rgb}{0.2,0,0}
+\hypersetup{colorlinks=true,           % put a box around links
+            linkbordercolor = {1 0 0}, % the box will be red
+            pdfborder = {1 0 0},       % the box will be red
+            bookmarks=true,            % or false
+%            unicode=true,              % allow non-Latin characters in Acrobat’s bookmarks
+            urlcolor=darkred,
+            citecolor=darkblue,
+            linkcolor=darkred,
+            pdffitwindow = false,     % Don't rescale to fit size of window
+%            baseurl={https://www.econ2.jhu.edu/people/ccarroll/}, 
+            pdfpagemode=UseThumbs,
+            pdfstartview=FitH,
+            pdfauthor={Christopher D. Carroll},
+            pdfnewwindow = true,       % Links open in new window
+%            pdftitle={How Large Is the Housing Wealth Effect?},
+%            pdfsubject={Housing Wealth and Consumption Expenditure Dynamics},
+%            pdfkeywords={housing wealth, consumption dynamics, wealth effect, asset price bubbles, asset pricing, housing market},
+            pdfproducer = {pdfLaTeX with hyperref},
+            pdfcreator = {ccarroll@jhu.edu},
+            }

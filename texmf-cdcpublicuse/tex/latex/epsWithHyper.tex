@@ -1,0 +1,9 @@
+% For files that have EPS figures and where conversion to PDF figures is not desired 
+% For this to work, in Aquamacs Emacs (more generally, AuCTeX), it is necessary to 
+% pick viewing mode (from the menu) of TeX-Prefs/View Format/PDF Via simpdflatex 
+\usepackage[dvips]{graphicx} \input HyperrefSetup.tex
+\newcommand{\wideMargins}{\input wideMargins.tex}
+
+\provideboolean{bigPrint}\setboolean{bigPrint}{false}
+
+

@@ -1,0 +1,13 @@
+% argument to usepackage [] needs to be Web if using tex4ht to create html code, Global otherwise
+% After document has been compiled under these options, do htlatex FileName.tex
+\usepackage[Web]{optional}
+
+\input htmFromEPSWithHyper.tex
+
+\provideboolean{MarginNotes}
+\provideboolean{MarginNotes}\setboolean{MarginNotes}{false}
+
+% Define shorthand commands for linking to public notes
+\input HandoutLinks.tex
+
+\input MathDocStart.tex

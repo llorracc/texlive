@@ -1,0 +1,12 @@
+
+\ifthenelse{\boolean{wideMargins}}{\input wideMarginsBE}{}
+\ifthenelse{\boolean{BigAndWide}}{\input wideMarginsBE}{}
+
+% Now make margins wide if requested by \UseOption{bigWide} from shell compilation
+\opt{bigWide}{\wideMargins} % Defined in htmFromEPSwithHyper or similar files
+
+\provideboolean{MarginNotes}\setboolean{MarginNotes}{false}
+\opt{MarginNotesOn}{\setboolean{MarginNotes}{true}}
+
+% Define shorthand commands for linking to public notes
+\input HandoutLinks.tex \input MathFactsList.defs

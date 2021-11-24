@@ -1,0 +1,29 @@
+This is MetaPost, version 1.208 (kpathsea version 5.0.0) (INIMP)  4 FEB 2011 08:33
+**metafun
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/metafun.mp
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-base.mp
+Preloading the plain mem file, version 0.63)
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-tool.mp)
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-spec.mp)
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-core.mp)
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-page.mp)
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-text.mp)
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-txts.mp)
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-shap.mp)
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-butt.mp)
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-char.mp)
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-step.mp)
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-grph.mp)
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-figs.mp)
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-mlib.mp)
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-grid.mp
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-form.mp
+(/usr/local/texlive/2009/texmf-dist/metapost/base/string.mp)
+(/usr/local/texlive/2009/texmf-dist/metapost/base/marith.mp
+(/usr/local/texlive/2009/texmf-dist/metapost/base/string.mp))))
+(/usr/local/texlive/2009/texmf-dist/metapost/context/base/mp-func.mp) )
+Beginning to dump on file metafun.mem
+ (mem=metafun 2011.02.04)
+at most 2207 strings of total length 18014
+49742 memory locations dumped; current usage is 12869&36770
+1805 symbolic tokens

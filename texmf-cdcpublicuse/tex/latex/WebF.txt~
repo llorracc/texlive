@@ -1,0 +1,2 @@
+\provideboolean{Web}
+\setboolean{Web}{true}

@@ -1,0 +1,449 @@
+This is pdfeTeX, Version 3.141592-1.20a-2.2 (Web2C 7.5.3) (format=latex 2004.11.21)  21 JUN 2005 09:02
+entering extended mode
+\write18 enabled.
+**\nonstopmode\input{PPRcdc.sty}
+(./PPRcdc.sty
+
+LaTeX Warning: You have requested package `',
+               but the package provides `PPRchad'.
+
+Package: PPRchad 2004/07/26
+`cdc' style for Prosper ---
+CVSId: $Id: PPRcdc.sty,v 1.1 2005/06/20 exupery Exp $
+ 
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+! Undefined control sequence.
+l.37 \newgray
+             {grayb}{.5}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \newgray{g
+               rayb}{.5}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 37--38
+[] 
+ []
+
+! Undefined control sequence.
+l.39 \FontTitle
+               {%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 40.
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+! Undefined control sequence.
+l.40 ...n}\fontsize{20.74pt}{18pt}\selectfont\blue
+                                                  }{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.41 ...n}\fontsize{20.74pt}{18pt}\selectfont\blue
+                                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.42 \FontText
+              {%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.43   \black
+             \usefont{T1}{phv}{m}{n}\fontsize{12.4pt}{13pt}\selectfont}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Try loading font information for T1+phv on input line 43.
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+! Undefined control sequence.
+l.44   \black
+             \usefont{T1}{phv}{m}{n}\fontsize{12.4pt}{13pt}\selectfont}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.53 \LogoPosition
+                  {-1,-1.1}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \LogoPosition{-
+                    1,-1.1}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 53--54
+[] 
+ []
+
+! Undefined control sequence.
+l.70 \NewSlideStyle
+                   [115mm]{t}{5.3,3.4}{BasicFrame}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \NewSlideStyle[
+                    115mm]{t}{5.3,3.4}{BasicFrame}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+! Undefined control sequence.
+l.71 \PDFCroppingBox
+                    {10 40 594 800}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+(/usr/local/teTeX/share/texmf.tetex/tex/latex/seminar/semhelv.sty
+Style Option: `semhelv' for the `seminar' doc style 1.4 <2000/05/08> (tvz)
+Modified by Stefan (see source for details)
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 70--57
+[]
+ []
+
+! Undefined control sequence.
+l.92   \family
+              \default@family\selectfont
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92   \family\default@family
+                             \selectfont
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 92--94
+[] 
+ []
+
+! Extra \else.
+l.95 \else
+          
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+l.164 \ifarticle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \slidefonts undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165   \renewcommand{\slidefonts}
+                                  {%
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra \else.
+l.171 \else
+           
+I'm ignoring this; it doesn't match any \if.
+
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 8.20007pt on input line 176.
+! Extra \fi.
+l.177 \fi
+         
+I'm ignoring this; it doesn't match any \if.
+
+! Extra \fi.
+l.179 \fi
+         
+I'm ignoring this; it doesn't match any \if.
+
+)
+! Undefined control sequence.
+l.75 \myitem
+            {1}{\includegraphics[width=.3cm]{green-bullet-on-white.ps}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 \myitem{1
+              }{\includegraphics[width=.3cm]{green-bullet-on-white.ps}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.75 \myitem{1}{\includegraphics
+                                [width=.3cm]{green-bullet-on-white.ps}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.76 \myitem
+            {2}{\includegraphics[width=.3cm]{red-bullet-on-white.ps}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.76 \myitem{2}{\includegraphics
+                                [width=.3cm]{red-bullet-on-white.ps}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.80 \myitem
+            {3}{\includegraphics[width=.3cm]{yellow-bullet-on-white.ps}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.80 \myitem{3}{\includegraphics
+                                [width=.3cm]{yellow-bullet-on-white.ps}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (94.43114pt too wide) in paragraph at lines 75--81
+[]\OT1/helvetica/m/n/10 1[width=.3cm]green-
+ []
+
+
+Overfull \hbox (22.1645pt too wide) in paragraph at lines 75--81
+\OT1/helvetica/m/n/10 bullet-
+ []
+
+
+Overfull \hbox (11.84897pt too wide) in paragraph at lines 75--81
+\OT1/helvetica/m/n/10 on-
+ []
+
+
+Overfull \hbox (29.95457pt too wide) in paragraph at lines 75--81
+\OT1/helvetica/m/n/10 white.ps
+ []
+
+
+Overfull \hbox (65.39476pt too wide) in paragraph at lines 75--81
+\OT1/helvetica/m/n/10 2[width=.3cm]red-
+ []
+
+
+Overfull \hbox (22.1645pt too wide) in paragraph at lines 75--81
+\OT1/helvetica/m/n/10 bullet-
+ []
+
+
+Overfull \hbox (11.84897pt too wide) in paragraph at lines 75--81
+\OT1/helvetica/m/n/10 on-
+ []
+
+
+Overfull \hbox (29.95457pt too wide) in paragraph at lines 75--81
+\OT1/helvetica/m/n/10 white.ps
+ []
+
+
+Overfull \hbox (76.03851pt too wide) in paragraph at lines 75--81
+\OT1/helvetica/m/n/10 3[width=.3cm]yellow-
+ []
+
+
+Overfull \hbox (22.1645pt too wide) in paragraph at lines 75--81
+\OT1/helvetica/m/n/10 bullet-
+ []
+
+
+Overfull \hbox (11.84897pt too wide) in paragraph at lines 75--81
+\OT1/helvetica/m/n/10 on-
+ []
+
+
+Overfull \hbox (29.95457pt too wide) in paragraph at lines 75--81
+\OT1/helvetica/m/n/10 white.ps 
+ []
+
+)
+! Emergency stop.
+<*> \nonstopmode\input{PPRcdc.sty}
+                                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 457 strings out of 95315
+ 5807 string characters out of 1186806
+ 44883 words of memory out of 1000000
+ 3620 multiletter control sequences out of 10000+50000
+ 11110 words of font info for 19 fonts, out of 500000 for 2000
+ 14 hyphenation exceptions out of 1000
+ 24i,1n,24p,202b,117s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 0 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 1 words of extra memory for PDF output out of 65536
+No pages of output.

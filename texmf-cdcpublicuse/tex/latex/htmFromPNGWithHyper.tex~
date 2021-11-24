@@ -1,0 +1,11 @@
+% Requires figures to be in PNG or other web-friendly form; will not work if EPS or PDF
+
+\typeout{Using htmFromPNGWithHyper}
+\usepackage{tex4ht}\usepackage{graphicx}\usepackage{endnotes} \input HyperrefSetup-tex4ht.tex
+\DeclareGraphicsExtensions{.png}
+
+\newcommand{\wideMargins}{\null{}}                    % Wide margins doesn't mean anything for html documents
+\provideboolean{bigPrint}\setboolean{bigPrint}{true}  % HTM output with math looks much better in a larger font size
+
+%\newcommand{\CDCFig}[1]{\includegraphics{#1.png}}
+\DeclareGraphicsExtensions{.png}

@@ -1,0 +1,13 @@
+% \newtheorem{theorem}{Theorem}
+% \newtheorem{Fact}{Fact}
+% \newtheorem{prop}{Proposition}
+% \newtheorem{lemma}{Lemma}
+% \newtheorem{corollary}{Corollary}
+% \renewcommand{\theequation}{\arabic{equation}}
+% \newtheorem{claim}[theorem]{Claim}
+%\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+
+
+%\usepackage{beamerarticle}
+
+\newtheorem{defn}{Definition}

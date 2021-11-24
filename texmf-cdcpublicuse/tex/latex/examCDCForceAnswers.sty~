@@ -1,0 +1,27 @@
+\RequirePackage{vmargin,ifthen,amsmath,amssymb,amsfonts,color,natbib,EconShortcuts}
+
+\provideboolean{AnswersTF}
+\setboolean{AnswersTF}{false}
+\opt{Answers}{\setboolean{AnswersTF}{true}}
+
+\provideboolean{Space}
+\setboolean{Space}{true}
+\providecommand{\ifSpace}{\ifthenelse{\boolean{Space}}}
+
+
+\newcommand{\ifAnswers}{\ifthenelse{\boolean{AnswersTF}}}
+
+
+\newcommand{\answer}[2]{\ifthenelse{\boolean{AnswersTF}}{
+{\it Answer:}
+\begin{quote}
+#1
+\end{quote}
+}
+{#2}}
+
+\pagestyle{headings}
+
+
+
+

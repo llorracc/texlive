@@ -1,0 +1,25 @@
+\RequirePackage{ifthen}
+
+\provideboolean{AnswersTF}\setboolean{AnswersTF}{false} % Default is no answers; run with \UseOption{Answers} from shell to generate answers
+
+
+\provideboolean{ExamQ}
+\setboolean{ExamQ}{false}
+\newcommand{\ifExamQuestion}{\ifthenelse{\boolean{ExamQ}}}
+
+\opt{Answers}{\provideboolean{AnswersTF}\setboolean{AnswersTF}{true}}
+
+\newcommand{\ifAnswers}{\ifthenelse{\boolean{AnswersTF}}}
+\newcommand{\answer}[2]{\ifthenelse{\boolean{AnswersTF}}{
+
+{\it Answer:}
+\begin{quote}
+#1
+\end{quote}
+}
+{#2}}
+
+
+
+
+

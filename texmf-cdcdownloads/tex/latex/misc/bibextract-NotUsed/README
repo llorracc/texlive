@@ -1,0 +1,33 @@
+%% /u/sy/beebe/tex/bibextract/README, Wed Oct 21 10:31:39 1992
+%% Edit by Nelson H. F. Beebe <beebe@plot79.math.utah.edu>
+
+************************************************************************
+*******************This code is in the PUBLIC DOMAIN********************
+************************************************************************
+
+This directory, bibextract, contains UNIX shell and awk programs for
+extracting citation tags from LaTeX source and .aux files, and for
+using those tags to extract bibliography entries from a list of BibTeX
+.bib files.
+
+"make install" will install the programs citefind and citetags on your
+system, together with their documentation.  Examine the BINDIR,
+LIBDIR, MANDIR, and MANEXT settings in the Makefile carefully before
+doing so; try "make -n install" to see what make would do without
+actually doing it.
+
+"make uninstall" will remove the programs and their documentation from
+the system directories.
+
+See the Makefile leading comments for other make targets.
+
+Author:
+        Nelson H. F. Beebe
+        Center for Scientific Computing
+        Department of Mathematics
+        University of Utah
+        Salt Lake City, UT 84112
+        USA
+        Telephone: +1 801 581 5254
+        FAX:       +1 801 581 4148
+        Email: beebe@math.utah.edu (Internet)

@@ -1,0 +1,145 @@
+.\" ====================================================================
+.\"  @Troff-man-file{
+.\"     author          = "Nelson H. F. Beebe",
+.\"     version         = "1.02",
+.\"     date            = "30 October 1992",
+.\"     time            = "19:41:15 MST",
+.\"     filename        = "citefind.man",
+.\"     address         = "Center for Scientific Computing
+.\"                        Department of Mathematics
+.\"                        University of Utah
+.\"                        Salt Lake City, UT 84112
+.\"                        USA",
+.\"     telephone       = "+1 801 581 5254",
+.\"     FAX             = "+1 801 581 4148",
+.\"     checksum        = "43423 145 595 4865",
+.\"     email           = "beebe@math.utah.edu (Internet)",
+.\"     codetable       = "ISO/ASCII",
+.\"     keywords        = "bibliography, BibTeX",
+.\"     supported       = "yes",
+.\"     docstring       = "This file contains the UNIX manual pages
+.\"                        for the citefind command, a shell script
+.\"                        that invokes an awk program to extract from
+.\"                        a list of BibTeX .bib files bibliography
+.\"                        entries that match a specified list of
+.\"                        citation tags, possibly produced by
+.\"                        citetags(1).
+.\"
+.\"                        The checksum field above contains a CRC-16
+.\"                        checksum as the first value, followed by the
+.\"                        equivalent of the standard UNIX wc (word
+.\"                        count) utility output of lines, words, and
+.\"                        characters.  This is produced by Robert
+.\"                        Solovay's checksum utility.",
+.\"  }
+.\" ====================================================================
+.if t .ds Bi B\s-2IB\s+2T\\h'-0.1667m'\\v'0.20v'E\\v'-0.20v'\\h'-0.125m'X
+.if n .ds Bi BibTeX
+.if t .ds Te T\\h'-0.1667m'\\v'0.20v'E\\v'-0.20v'\\h'-0.125m'X
+.if n .ds Te TeX
+.TH CITEFIND 1 "30 October 1992" "Version 1.02"
+.\"======================================================================
+.SH NAME
+citefind \- extract matching bibliography entries from BibTeX .bib files
+.\"======================================================================
+.SH SYNOPSIS
+.nf
+.BI citefind " tags-file bibfile(s) >newbibfile"
+.fi
+or
+.nf
+.BI citefind " \- bibfile(s) >newbibfile"
+.fi
+.\"======================================================================
+.SH DESCRIPTION
+.B citefind
+extracts from a list of \*(Bi\&
+.I .bib
+files those bibliography entries that match a
+specified list of citation tags, possibly produced
+by
+.BR citetags (1),
+sending the entries to
+.IR stdout ,
+together with all \*(Bi\& ``@Preamble{.\|.\|.}''
+and ``@String{.\|.\|.}'' commands.
+.PP
+If the first argument,
+.IR tags-file ,
+is ``\-'', the tag list is read from
+.IR stdin ,
+allowing it to be piped from
+.BR citetags (1).
+.PP
+Bibliography entries are output in the order found
+in the
+.I .bib
+files.  In the absence of cross references, you
+may be able to use
+.BR bibsort (1)
+to sort them by citation key.  While such sorting
+is unnecessary for \*(Bi\& itself, it is
+convenient for a human reader of the
+.I .bib
+file.
+.PP
+When documents are prepared using a large
+bibliography data base collection, it is sometimes
+convenient to extract a subset \*(Bi\&
+bibliography file incorporating only those entries
+that are cited in the document.  A good example is
+a document to be submitted to a publisher, or
+otherwise distributed in electronic form.
+.\"======================================================================
+.SH "BUGS"
+.B citefind
+is not smart enough to incorporate \*(Bi\&
+cross references unless their citation tags are
+included in the input list.
+.PP
+No attempt is made to reduce the output
+``@String{.\|.\|.}'' commands to just those that
+are actually referenced.
+.PP
+Those features should be added.
+.\"======================================================================
+.SH "SEE ALSO"
+.BR bibclean (1),
+.BR bibextract (1),
+.BR bibindex (1),
+.BR biblook (1),
+.BR bibsort (1),
+.BR bibtex (1),
+.BR citetags (1).
+.\"======================================================================
+.SH FILES
+.\" NB: LIBDIR and BINDIR are substituted for real directory names
+.\"     by a sed script invoked by "make install".
+.TP \w'@LIBDIR@/citefind.awk'u+2n
+@LIBDIR@/citefind.awk
+.BR nawk (1)
+program for tag extraction.
+.TP
+@BINDIR@/citefind
+user-callable shell script to invoke
+.BR nawk (1).
+.\"======================================================================
+.SH AUTHOR
+Nelson H. F. Beebe, Ph.D.
+.br
+Center for Scientific Computing
+.br
+Department of Mathematics
+.br
+University of Utah
+.br
+Salt Lake City, UT 84112
+.br
+USA
+.br
+Tel: +1 801 581 5254
+.br
+FAX: +1 801 581 4148
+.br
+Email: <beebe@math.utah.edu>
+.\"==============================[The End]==============================

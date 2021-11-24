@@ -1,0 +1,132 @@
+
+
+
+CITEFIND(1)              USER COMMANDS                CITEFIND(1)
+
+
+
+NAME
+     citefind - extract matching bibliography entries from BibTeX
+     .bib files
+
+SYNOPSIS
+     citefind tags-file bibfile(s) >newbibfile
+     or
+     citefind - bibfile(s) >newbibfile
+
+DESCRIPTION
+     citefind extracts from a list of  BibTeX  .bib  files  those
+     bibliography entries that match a specified list of citation
+     tags, possibly produced by citetags(1), sending the  entries
+     to  stdout,  together with all BibTeX ``@Preamble{...}'' and
+     ``@String{...}'' commands.
+
+     If the first argument, tags-file, is ``-'', the tag list  is
+     read from stdin, allowing it to be piped from citetags(1).
+
+     Bibliography entries are output in the order  found  in  the
+     .bib  files.  In the absence of cross references, you may be
+     able to use bibsort(1) to sort them by citation key.   While
+     such  sorting  is  unnecessary for BibTeX itself, it is con-
+     venient for a human reader of the .bib file.
+
+     When documents are prepared using a large bibliography  data
+     base  collection,  it  is  sometimes convenient to extract a
+     subset BibTeX bibliography  file  incorporating  only  those
+     entries that are cited in the document.  A good example is a
+     document to be submitted to a publisher, or  otherwise  dis-
+     tributed in electronic form.
+
+BUGS
+     citefind is not smart enough  to  incorporate  BibTeX  cross
+     references  unless  their  citation tags are included in the
+     input list.
+
+     No attempt is made to  reduce  the  output  ``@String{...}''
+     commands to just those that are actually referenced.
+
+     Those features should be added.
+
+SEE ALSO
+     bibclean(1), bibextract(1),  bibindex(1),  biblook(1),  bib-
+     sort(1), bibtex(1), citetags(1).
+
+FILES
+     /usr/local/lib/bibextract/citefind.awk  nawk(1) program  for
+                                             tag extraction.
+
+     /usr/local/bin/citefind                 user-callable  shell
+                                             script   to   invoke
+
+
+
+Version 1.02      Last change: 30 October 1992                  1
+
+
+
+
+
+
+CITEFIND(1)              USER COMMANDS                CITEFIND(1)
+
+
+
+                                             nawk(1).
+
+AUTHOR
+     Nelson H. F. Beebe, Ph.D.
+     Center for Scientific Computing
+     Department of Mathematics
+     University of Utah
+     Salt Lake City, UT 84112
+     USA
+     Tel: +1 801 581 5254
+     FAX: +1 801 581 4148
+     Email: <beebe@math.utah.edu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version 1.02      Last change: 30 October 1992                  2
+
+
+

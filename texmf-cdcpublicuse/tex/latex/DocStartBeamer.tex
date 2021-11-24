@@ -1,0 +1,23 @@
+% \input EconDocStart.tex
+
+% argument to usepackage [] needs to be Web if using tex4ht to create html code, Global otherwise
+\usepackage[BeamerDoc]{optional}
+
+% Default is to make a PDF version
+\provideboolean{PDFOut}\setboolean{PDFOut}{true}
+
+% If called with option Web, don't make PDF version
+\opt{Web}{\setboolean{PDFOut}{false}}
+
+% Necessary because epstopdf requirespdftex but is not compatible with the dvi output option, which is needed for tex4ht
+\ifthenelse{\boolean{PDFOut}}
+  {\usepackage{epstopdf} \input HyperrefSetupBeamer.tex}
+  {\usepackage{tex4ht}\usepackage{graphicx}\usepackage{endnotes}\input HyperrefSetup.tex}
+
+\provideboolean{MarginNotes}
+\provideboolean{MarginNotes}\setboolean{MarginNotes}{false}
+\opt{MarginNotesOn}{\setboolean{MarginNotes}{true}}
+
+% Define shorthand commands for linking to public notes
+\input HandoutLinks.tex
+

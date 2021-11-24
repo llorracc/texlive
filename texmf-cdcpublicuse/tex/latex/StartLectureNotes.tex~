@@ -1,0 +1,5 @@
+\documentclass[]{lecturenotes}
+\usepackage{packages}
+\setboolean{MyNotes}{false}
+\usepackage{lecturenotes}
+

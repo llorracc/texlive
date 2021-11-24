@@ -1,0 +1,194 @@
+\providecommand{\curr}{1}  % Permits a change of notation to T-1 and T, t and t+1, or whatever
+\providecommand{\next}{2}  % via search-and-replace
+\providecommand{\Curr}{t}   % Permits a change of notation to T-1 and T, t and t+1, or whatever
+\providecommand{\Next}{t+1} % 
+\providecommand{\Wage}{\mathcal{W}}
+%\providecommand{\Rfree}{\mathtt{R}}   % The return factor on the safe asset
+\providecommand{\Rfree}{\mathsf{R}}   % The gross return on the safe asset - unfortunately mathfrak fonts don't come through for tth 
+%\providecommand{\Risky}{\Phi}    % The gross return on the risky asset
+\providecommand{\Risky}{\mathfrak{R}}    % The gross return on the risky asset
+\providecommand{\risky}{\mathfrak{r}} % The net return on the risky asset annual rate
+\providecommand{\Rnorm}{\mathcal{R}}    % Normalized version of riskless gross return
+\providecommand{\rfree}{\mathsf{r}}   % The net return on the safe asset at an annual rate
+\providecommand{\TShk}{\Xi} % 
+\providecommand{\PShk}{\Psi} % 
+\providecommand{\Estdr}{\sigma_{\risky}} % Standard deviation of log return on risky asset
+\providecommand{\Evarr}{\sigma_{\risky}^{2}} % Variance of log return on risky asset
+\providecommand{\EVarr}{\sigma_{\Risky}^{2}} % Variance of level return on risky asset (when returns norm dist)
+\providecommand{\eprem}{\varphi} % log equity premium
+\providecommand{\EPrem}{\Phi} % equity premium
+\providecommand{\Wmid}{\ensuremath{B}} % Wealth as of the middle of the period (after R is received, not including Y)
+\providecommand{\WMid}{\ensuremath{B}} % Wealth as of the middle of the period (after R is received, not including Y)
+\providecommand{\wMid}{\ensuremath{b}} % wealth as of the middle of the period (after R is received, not including Y)
+\providecommand{\WMkt}{\ensuremath{M}} % Wealth as of the middle of the period (after R is received, including Y)
+\providecommand{\wmkt}{\ensuremath{m}} % wealth as of the middle of the period (after R is received, including Y)
+\providecommand{\WEnd}{\ensuremath{A}} % Wealth as of the end of the period (after C has been chosen)
+\providecommand{\wEnd}{\ensuremath{a}} % wealth as of the end of the period (after C has been taken)
+\providecommand{\WBeg}{\ensuremath{K}} % Wealth as of the beginning of the period (before R is received, not including Y)
+\providecommand{\wBeg}{\ensuremath{k}} % wealth as of the beginning of the period (before R is received, not including Y)
+\providecommand{\WGro}{\ensuremath{\mathsf{G}}}
+\providecommand{\wGro}{\ensuremath{\mathsf{g}}}
+%\providecommand{\wGro}{\ensuremath{\mathbf{g}}}
+\providecommand{\PGro}{\ensuremath{\Gamma}}
+\providecommand{\pGro}{\ensuremath{\gamma}}
+\providecommand{\PGroAdj}{\ensuremath{\acute{\PGro}}}
+\providecommand{\pGroAdj}{\ensuremath{\acute{\pGro}}}
+\providecommand{\save}{s} % saving (income minus consumption) 
+\providecommand{\Save}{S} % Saving (income minus consumption) 
+\providecommand{\Plabor}{\mathbf{P}} % Permanent labor income in levels
+\providecommand{\WHum}{\mathsf{H}} % Human wealth
+\providecommand{\WTot}{\mathsf{W}} % Human wealth
+\providecommand{\wTot}{\mathsf{w}} % Human wealth
+\providecommand{\wHum}{\mathsf{h}} % human wealth
+\providecommand{\Value}{\ensuremath{\mathbf{V}}} % middle-of-period Value function
+\providecommand{\valfn}{\ensuremath{\mathbf{v}}} % middle-of-period value function
+\providecommand{\VEnd}{\ensuremath{\mathfrak{V}}} % end-of-period Value function
+\providecommand{\vEnd}{\ensuremath{\mathfrak{v}}} % end-of-period value function
+\providecommand{\labor}{\ensuremath{\ell}} % 
+\providecommand{\Labor}{L} % 
+\providecommand{\leisure}{z} % 
+\providecommand{\leisure}{Z} % 
+\providecommand{\PDV}{\ensuremath{\mathbb{P}}} % PDV
+\providecommand{\Ex}{\ensuremath{\mathbf{E}}} % Expectations
+%\providecommand{\Exp}{\ensuremath{\mathbf{E}}} % Expectations
+\providecommand{\itc}{\ensuremath{\zeta}} % Expectations
+
+
+% From here on, alphabetical
+
+\providecommand{\aFunc}{\ensuremath{\mathbf{a}}}
+\providecommand{\adj}{\ensuremath{\mathbf{j}}}
+\providecommand{\cRat}{\ensuremath{c}}
+\providecommand{\cFunc}{\ensuremath{\mathbf{c}}}
+\providecommand{\CFunc}{\ensuremath{\mathbf{C}}}
+\providecommand{\CLev}{\ensuremath{C}}
+\providecommand{\cRat}{\ensuremath{c}}
+\providecommand{\CGro}{\ensuremath{G}}
+\providecommand{\CGroPF}{\ensuremath{\Lambda}}
+\providecommand{\cGroPF}{\ensuremath{\lambda}}
+\providecommand{\CGroOverR}{\ensuremath{\Phi}}
+\providecommand{\CGroOverG}{\ensuremath{\Upsilon}}
+\providecommand{\cPDVFunc}{\ensuremath{\mathbb{C}}}
+\providecommand{\CPDV}{\ensuremath{\text{PDV($C$)}}}
+\providecommand{\CRRA}{\ensuremath{\rho}}
+\providecommand{\depr}{\ensuremath{\delta}}
+\providecommand{\debtLim}{\mathbf{d}}
+\providecommand{\EEndMap}{\ensuremath{\mathsf{E}}}
+\providecommand{\effUnits}{\ensuremath{X}}
+\providecommand{\eFunc}{\ensuremath{\mathbf{e}}}
+\providecommand{\fFunc}{\ensuremath{\mathbf{f}}}
+\providecommand{\Kap}{{K}}
+\providecommand{\kap}{{k}}
+\providecommand{\kapShare}{\ensuremath{\varepsilon}}
+\providecommand{\kapRent}{\ensuremath{x}}
+\providecommand{\ImpG}{{\Im}_{\PGro}}
+\providecommand{\ImpR}{{\Im}_{\Rfree}}
+\providecommand{\impg}{{\imath}_{\pGro}}
+\providecommand{\impr}{{\imath}_{\rfree}}
+\providecommand{\nFunc}{\ensuremath{\mathbf{n}}}
+\providecommand{\Pat}{\mathscr{P}}
+\providecommand{\PatPGro}{\mathscr{P}_{\PGro}}
+\providecommand{\PatPGroAdj}{\mathscr{P}_{\acute{\PGro}}}
+\providecommand{\PatPGroG}{\mathscr{P}_{\WGro}}
+\providecommand{\PatR}{\mathscr{P}_{\Rfree}}
+\providecommand{\patpGro}{\wp_{\pGro}}
+\providecommand{\patpGroAdj}{\wp_{\acute{\pGro}}}
+\providecommand{\patpGrohat}{\hat{\wp}_{\pGro}}
+\providecommand{\patpGrog}{\wp_{\wGro}}
+\providecommand{\patr}{\wp_{\rfree}}
+\providecommand{\Inc}{{Y}}
+\providecommand{\inc}{{y}}
+\providecommand{\Inv}{{I}}
+\providecommand{\inv}{{i}}
+\providecommand{\labor}{\ensuremath{\ell}}
+\providecommand{\Labor}{\ensuremath{\mathcal{L}}}
+\providecommand{\labShare}{\ensuremath{\nu}}
+\providecommand{\MPC}{\ensuremath{\kappa}}
+\providecommand{\MinMPC}{\ensuremath{\underline{\kappa}}}
+\providecommand{\MinMinMPC}{\ensuremath{\underline{\underline{\kappa}}}}
+\providecommand{\MaxMPC}{\ensuremath{\bar{\kappa}}}
+\providecommand{\MaxMaxMPC}{\ensuremath{\bar{\bar{\kappa}}}}
+\providecommand{\MPCFunc}{\ensuremath{\pmb{\kappa}}}
+\providecommand{\MPS}{\ensuremath{\lambda}}
+\providecommand{\MPSFunc}{\ensuremath{\pmb{\varpi}}}
+\providecommand{\mFunc}{\ensuremath{\mathbf{m}}}
+\providecommand{\mTarg}{\bar{m}}
+\providecommand{\n}{\ensuremath{n}}
+\providecommand{\Wealth}{\ensuremath{O}}
+\providecommand{\wealth}{\ensuremath{o}}
+\providecommand{\PIHMPC}{\ensuremath{\varkappa}}
+\providecommand{\PInc}{\ensuremath{P}}
+\providecommand{\PLabor}{\ensuremath{P}} % Permanent labor income in levels
+\providecommand{\PopGro}{\ensuremath{N}}
+\providecommand{\popGro}{\ensuremath{n}}
+\providecommand{\power}{\ensuremath{\eta}}
+\providecommand{\prud}{\ensuremath{\eta}}
+\providecommand{\prudEx}{\ensuremath{\omega}}
+\providecommand{\Rev}{\ensuremath{\Pi}}
+\providecommand{\rev}{\ensuremath{\pi}}
+\providecommand{\ptyGro}{\ensuremath{g}}
+\providecommand{\phiFunc}{\ensuremath{\pmb{\phi}}}
+\providecommand{\ptyLev}{\ensuremath{z}}
+\providecommand{\PtyLev}{\ensuremath{Z}}
+\providecommand{\PtyGro}{\ensuremath{g}}
+\providecommand{\pPDVFunc}{\ensuremath{\mathbb{P}}}
+\providecommand{\PPDV}{\ensuremath{\text{PDV($P$)}}}
+\providecommand{\q}{\ensuremath{q}}
+\providecommand{\riskyshare}{{\varsigma}}
+\providecommand{\Stocks}{{S}}
+\providecommand{\stocks}{{s}}
+\providecommand{\TaxRate}{\ensuremath{t}}
+\providecommand{\TaxCorp}{\ensuremath{\Omega}}
+\providecommand{\TaxFree}{\ensuremath{\mho}}
+\providecommand{\TaxPaid}{\ensuremath{T}}
+\providecommand{\timeRate}{\ensuremath{\vartheta}}
+\providecommand{\TermTime}{\ensuremath{T}}
+\providecommand{\tBak}{\ensuremath{\mathbf{n}}}
+\providecommand{\TEndBak}{\ensuremath{\mathtt{p}}}
+\providecommand{\TEat}{\ensuremath{\TEnd}}
+\providecommand{\tHor}{\ensuremath{\mathtt{n}}}
+\providecommand{\tHorOfm}{\ensuremath{\mathbf{n}}}
+\providecommand{\TEatBak}{\ensuremath{\mathtt{q}}}
+\providecommand{\tFwd}{\ensuremath{n}}
+\providecommand{\TEnd}{\ensuremath{T}}
+\providecommand{\tNow}{\ensuremath{t}}
+\providecommand{\tThen}{\ensuremath{\tau}}
+\providecommand{\TMap}{\mathsf{T}}
+\providecommand{\uFunc}{{\ensuremath{\mathbf{u}}}}
+\providecommand{\uPDVFunc}{\ensuremath{\mathbb{U}}}
+\providecommand{\urate}{\ensuremath{\mho}}
+\providecommand{\erate}{\ensuremath{\Omega}}
+\providecommand{\expend}{\ensuremath{\xi}}
+\providecommand{\vFunc}{\ensuremath{\mathbf{v}}}
+\providecommand{\VFunc}{\ensuremath{\mathbf{V}}}
+\providecommand{\vEndFunc}{\ensuremath{\mathfrak{v}}}
+\providecommand{\VEndFunc}{\ensuremath{\mathfrak{V}}}
+\providecommand{\WMkt}{{B}}
+\providecommand{\wMkt}{{b}}
+\providecommand{\WPre}{{K}}
+\providecommand{\wPre}{{k}}
+\providecommand{\WEnd}{{A}}
+\providecommand{\wEnd}{{a}}
+\providecommand{\WAll}{{O}}
+\providecommand{\wAll}{{o}}
+\providecommand{\wFunc}{\mathbf{w}}
+\providecommand{\xFunc}{\mathbf{x}}
+\providecommand{\yFunc}{\mathbf{y}}
+% Automated description of notation
+\providecommand{\PDVFoot}{\footnote{$\PDV_{t}(\bullet)$ indicates the present discounted value of $\bullet$ from the perspective of date $t$.}}
+\providecommand{\pZero}{\ensuremath{p}}
+\providecommand{\pNotZero}{\ensuremath{q}}
+
+\def\argmax{\operatornamewithlimits{arg\,max}}
+\DeclareMathOperator{\var}{var}
+\def\cov{\operatorname{cov}}
+%\def\std{\operatorname{std}}
+%\def\mathkoppa{\mathbf{q}}
+\def\mathkoppa{\text{\koppa}}
+%\provideboolean{Growth}
+%\setboolean{Growth}{true}
+%\setboolean{Growth}{false}
+%\newcommand{\ifGG}{\ifthenelse{\boolean{Growth}}}  % Switch for whether to include productivity growth in formulae; useful for programming/debugging
+
+
+\DeclareMathOperator{\Exp}{\mathbf{E}}

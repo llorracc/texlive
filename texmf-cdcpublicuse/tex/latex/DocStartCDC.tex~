@@ -1,0 +1,20 @@
+\usepackage{EconCDCPackages}
+\usepackage{EconShortcuts}
+
+\provideboolean{bigPrint}
+\setboolean{bigPrint}{true}
+
+\provideboolean{wideMargins}
+\setboolean{wideMargins}{true}
+
+\provideboolean{BigAndWide}
+\setboolean{BigAndWide}{true}
+
+
+%\newcommand{\together}{\parbox{\linewidth}}
+\newcommand{\together}[1]{\noindent\parbox{\linewidth}{#1}} % Can't use for keeping ALL answers together because some answers include figures which are not allowed inside a parbox
+% Provide environment for comments and extra material that will not be 
+% included in versions of documents for public distribution
+
+\newenvironment{CDCPrivate} % Environment for extra material not wanted in the public document
+{\marginpar{\tiny begin CDC}}{\marginpar{\tiny end CDC}}

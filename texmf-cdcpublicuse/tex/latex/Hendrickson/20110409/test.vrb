@@ -1,0 +1,21 @@
+
+
+\expandafter\gdef\csname EulerIsMyFriend\endcsname
+{Here is First test
+     \begin{eqnarray}
+asdf&asdf\\
+asdf&asdf
+\end{eqnarray}}
+
+
+\expandafter\gdef\csname SomethingElse\endcsname
+{Or, anything else like:
+\begin{tabular}{ccc}
+a&test&to show off\\
+what happens&with&writetofile
+\end{tabular}
+}
+
+
+\expandafter\gdef\csname ThirdTest223\endcsname
+{this is third test}

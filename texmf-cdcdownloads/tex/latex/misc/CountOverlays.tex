@@ -1,0 +1,71 @@
+% Obtained by CDC on 5/23/05 from http://cvs.sourceforge.net/viewcvs.py/prosper/prosper/TODO?rev=1.6
+
+%  Joe B. Wells has provided the following patch which determines the
+%  number of overlays needed from the \fromSlide, \onlySlide, and
+%  \untilSlide on the slide:
+
+    \newcounter{currentOverlay}
+    \newcounter{maxOverlay}
+    
+    % \recordOverlay{n} tells \overlayslide that overlay n exists.
+    
+    \newcommand{\recordOverlay}[1]
+      {\ifnum #1>\value{maxOverlay}\relax
+         \setcounter{maxOverlay}{#1}%
+       \fi}
+    
+    % All material after \step appears on the next and subsequent
+    % overlays.  This also tells \overlayslide that the overlays exist.
+    
+    \newcommand{\step}
+      {\StepCounter{currentOverlay}%
+       \recordOverlay{\value{currentOverlay}}%
+       \FromSlide{\thecurrentOverlay}}
+    
+    % This command should probably not exist.  Don't use it.  Just write
+    % \step\item where needed.
+    
+    \newcommand{\stepitem}{\step\item}
+    
+    % All material after \FromOverlay{n} (until the next such command)
+    % will appear on overlay n and all later overlays.  This also tells
+    % \overlayslide that overlay n exists.
+    
+    \newcommand{\FromOverlay}[1]{\recordOverlay{#1}\FromSlide{#1}}
+    
+    % \overlayslide{XYZ}{...} is like doing
+    % \overlays{n}{\begin{slide}{XYZ}...\end{slide}} except that you can
+    % also use the \step and \FromOverlay commands defined just above and
+    % the value of n will be automatically determined from the uses of
+    % \step and \FromOverlay.
+    
+    \long\def\overlayslide#1#2%
+      {% #1 is TITLE
+       % #2 is BODY
+       \global\InOverlaystrue % we already _are_ global!!!
+       \aftergroup\InOverlaysfalse % this seems completely daft!
+       \setcounter{overlaysCount}{1}%
+       \setcounter{maxOverlay}{1}%
+       \ifDVItoPS
+         \setcounter{currentOverlay}{1}
+         \begin{slide}{#1}
+           #2%
+           \par\hbox{}% bizarre hack which works around strange Prosper problem
+         \end{slide}
+       \else
+         \begin{Overlays}
+         \bgroup
+           \loop 
+             \setcounter{currentOverlay}{1}%
+             \begin{slide}{#1}%
+               #2%
+               \par\hbox{}% bizarre hack which works around strange Prosper problem
+             \end{slide}%
+           \ifnum\value{overlaysCount}<\value{maxOverlay}\relax
+             \StepCounter{overlaysCount}%
+           \repeat
+         \egroup
+         \end{Overlays}
+       \fi}
+
+

@@ -1,0 +1,50 @@
+\documentclass{book}
+\advance\textheight1in
+
+\usepackage{printvrb}
+\input test.vrb
+
+\namesinmargin
+\begin{document}
+\parskip=18pt
+
+
+Here we have our first test fragment:\\
+
+\printfrag{EulerIsMyFriend}
+
+
+\begin{itemize}
+\item
+Here we print the second frag:\\ 
+
+\printfrag{SomethingElse}
+
+\item
+Here's the third test with a number in it:
+
+\printfrag{ThirdTest223}
+
+\end{itemize}
+
+And Here is an example of using a fragment more
+than once. 
+
+\printfrag{EulerIsMyFriend}
+
+If you want to set the counter for the equation numbers
+you can do that too, with \verb+\setcounter{equation}{0}+,
+and the same equations numbers will be used.
+
+\setcounter{equation}{0}
+
+\printfrag{EulerIsMyFriend}
+
+====
+
+Now we see what happens if you call for a name that isn't
+defined:
+
+\printfrag{Mistake}
+
+\end{document}

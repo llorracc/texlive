@@ -1,0 +1,66 @@
+
+
+
+CITETAGS(1)              USER COMMANDS                CITETAGS(1)
+
+
+
+NAME
+     citetags - extract BibTeX citation tags from a LaTeX  source
+     or .aux file
+
+SYNOPSIS
+     citetags LaTeX source or .aux file >tagsfile
+
+DESCRIPTION
+     citetags extracts BibTeX citation tags from a  LaTeX  source
+     file  or  .aux  file  and sends them to stdout, possibly for
+     later input to citefind(1).
+
+     citetags and citefind(1) can be used to extract from a large
+     BibTeX   bibliography  data  base  just  those  bibliography
+     entries that are actually used  in  a  particular  document,
+     perhaps  for  submission  to a publisher, or distribution in
+     electronic form.
+
+BUGS
+     citetags is not smart enough  to  incorporate  BibTeX  cross
+     references unless they are themselves cited.
+
+     That feature should be added.
+
+SEE ALSO
+     bibclean(1), bibextract(1),  bibindex(1),  biblook(1),  bib-
+     sort(1), bibtex(1), citefind(1), latex(1), nawk(1).
+
+FILES
+     /usr/local/lib/bibextract/citetags.awk  nawk(1) program  for
+                                             tag extraction.
+
+     /usr/local/bin/citetags                 user-callable  shell
+                                             script   to   invoke
+                                             nawk(1).
+
+AUTHOR
+     Nelson H. F. Beebe, Ph.D.
+     Center for Scientific Computing
+     Department of Mathematics
+     University of Utah
+     Salt Lake City, UT 84112
+     USA
+     Tel: +1 801 581 5254
+     FAX: +1 801 581 4148
+     Email: <beebe@math.utah.edu>
+
+
+
+
+
+
+
+
+
+Version 1.02      Last change: 30 October 1992                  1
+
+
+

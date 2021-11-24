@@ -1,0 +1,18 @@
+\documentclass[]{examCDC}
+\usepackage{examCDC}
+\setboolean{ShowAnswers}{false}
+
+\begin{document}
+
+
+\ifthenelse{\boolean{ShowAnswers}}{}
+{\begin{flushright}Name \rule{50mm}{.1mm}\end{flushright}}
+\medskip
+
+\centerline{\Large Exam}
+\centerline{\large 180.604}
+\centerline{\large Spring, 2004}
+\ifthenelse{\boolean{ShowAnswers}}{\centerline {\Large Answers}}
+
+\medskip
+\medskip

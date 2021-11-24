@@ -1,0 +1,132 @@
+
+
+
+BIBEXTRACT(1)            USER COMMANDS              BIBEXTRACT(1)
+
+
+
+NAME
+     bibextract - extract BibTeX entries  from  a  list  of  .bib
+     files
+
+SYNOPSIS
+     bibextract keyword-regexp value-regexp bibfile(s)
+
+DESCRIPTION
+     bibextract extracts from a list of BibTeX .bib  files  those
+     bibliography  entries that match a pair of specified regular
+     expressions, sending them to stdout, together with all  Bib-
+     TeX ``@Preamble{...}'' and ``@String{...}'' commands.
+
+     The first  regular-expression  pattern,  keyword-regexp,  is
+     used to select which  ``keyword = "value"'' pairs to examine
+     further; it matches against the keyword part only.  If it is
+     an empty string, then all such pairs are examined.
+
+     The second regular-expression pattern, value-regexp, is used
+     to  further  select  from  the  value strings of ``keyword =
+     "value"'' pairs the bibliography entries to be output.   The
+     selection algorithm therefore consists of the logical AND of
+     match successes against the keyword and value strings.
+
+     bibextract can be  used  to  extract  from  a  large  BibTeX
+     bibliography  data base just those bibliography entries that
+     match a particular pair of regular expressions.
+
+EXAMPLES
+     Here are some examples:
+
+     Extract all entries mentioning chaos in any field:
+
+          bibextract "" "chaos" bibfile(s) >new-bibtex-file"
+
+     Extract entries with  names  Brown  or  Smith  occurring  in
+     either of the author or editor fields:
+
+          bibextract  "author|editor"  "brown|smith"   bibfile(s)
+          >new-bibtex-file
+
+     Extract entries for titles containing the  letter  `z'  any-
+     where  after  a vowel; note that single quotes are necessary
+     to provide the necessary protection from shell expansion:
+
+          bibextract  "title"   '[aeiou].*z'   bibfile(s)   >new-
+          bibtex-file
+
+BUGS
+     bibextract is not smart enough to incorporate  BibTeX  cross
+     references  unless they are themselves matched by the speci-
+     fied regular expression.
+
+
+
+Version 1.02      Last change: 30 October 1992                  1
+
+
+
+
+
+
+BIBEXTRACT(1)            USER COMMANDS              BIBEXTRACT(1)
+
+
+
+     That feature should be added.
+
+SEE ALSO
+     bibclean(1), bibindex(1), biblook(1), bibsort(1), bibtex(1),
+     citefind(1), citetags(1), latex(1), nawk(1).
+
+FILES
+     /usr/local/lib/bibextract/bibextract.awk  nawk(1)    program
+                                               for   tag  extrac-
+                                               tion.
+
+     /usr/local/bin/bibextract                 user-callable
+                                               shell   script  to
+                                               invoke nawk(1).
+
+AUTHOR
+     Nelson H. F. Beebe, Ph.D.
+     Center for Scientific Computing
+     Department of Mathematics
+     University of Utah
+     Salt Lake City, UT 84112
+     USA
+     Tel: +1 801 581 5254
+     FAX: +1 801 581 4148
+     Email: <beebe@math.utah.edu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version 1.02      Last change: 30 October 1992                  2
+
+
+

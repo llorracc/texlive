@@ -1,0 +1,3 @@
+\provideboolean{ShowAnswers}
+\setboolean{ShowAnswers}{false}
+

@@ -1,0 +1,55 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  6 MAR 2015 21:19
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**beamerSetup.sty
+(./beamerSetup.sty
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+(/Volumes/Sync/Dropbox/Sys/Config/texlive/texmf-cdcdownloads/tex/generic/ibycus
+4/psibycus.sty
+Package: psibycus 2004/10/18 v4.5 Ibycus4 using Type1 fonts (P.A.MacKay/WaS)
+\digraphs=\toks14
+
+(/Volumes/Sync/Dropbox/Sys/Config/texlive/texmf-cdcdownloads/tex/generic/ibycus
+4/ibycus4.map
+(/Volumes/Sync/Dropbox/Sys/Config/texlive/texmf-cdcdownloads/tex/generic/ibycus
+4/tlgsqq.tex))
+(/Volumes/Sync/Dropbox/Sys/Config/texlive/texmf-cdcdownloads/tex/generic/ibycus
+4/Uibycus.fd
+File: Uibycus.fd 2004/10/18 v4.5 font definitions for Ibycus/Type1 (WaS)
+)
+(/Volumes/Sync/Dropbox/Sys/Config/texlive/texmf-cdcdownloads/tex/generic/ibycus
+4/iby4extr.tex
+(/Volumes/Sync/Dropbox/Sys/Config/texlive/texmf-cdcdownloads/tex/generic/ibycus
+4/version4.tex Ibycus Greek. Version 4. 15 July 1997)))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ushort/ushort.sty
+ushort.sty by M. Vaeth: Release: 2.2 
+Package: ushort 2001/06/13 v2.2
+)
+./beamerSetup.sty:586: Undefined control sequence.
+l.586 \provideboolean
+                     {Web}
+? 
+./beamerSetup.sty:586: Emergency stop.
+l.586 \provideboolean
+                     {Web}
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 982 strings out of 493315
+ 8246 string characters out of 6137904
+ 55673 words of memory out of 5000000
+ 4505 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 16i,0n,19p,189b,22s stack positions out of 5000i,500n,10000p,200000b,80000s
+./beamerSetup.sty:586:  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,21 @@
+
+cd $HANDOUTDIR/$HANDOUTNAME/text
+ 
+~/Library/texmf/tex/latex/MyNotesSwitchOn.command
+
+latex $HANDOUTNAME
+bibtex $HANDOUTNAME
+latex $HANDOUTNAME
+latex $HANDOUTNAME
+dvipdf $HANDOUTNAME.dvi $HANDOUTNOTES.pdf; open -a 'Acrobat 5.0' $HANDOUTNOTES.pdf
+
+~/Library/texmf/tex/latex/MyNotesSwitchOff.command
+
+latex $HANDOUTNAME.tex
+bibtex $HANDOUTNAME.tex
+latex $HANDOUTNAME.tex
+latex $HANDOUTNAME.tex
+dvipdf $HANDOUTNAME.dvi $HANDOUTNAME.pdf; open -a 'Acrobat 5.0' $HANDOUTNAME.pdf
+
+cp -f $HANDOUTNAME.pdf ..
+

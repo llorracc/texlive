@@ -1,0 +1,12 @@
+
+\usepackage{examCDC}
+\provideboolean{AnswersTF}\setboolean{AnswersTF}{false}
+
+\renewenvironment{quote} 
+               {\list{}{\rightmargin\leftmargin \setlength{\parsep}{.1in}}%
+                \item\relax}
+               {\endlist}
+
+
+\opt{Answers}{\setboolean{AnswersTF}{true}}
+

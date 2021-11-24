@@ -1,0 +1,25 @@
+% argument to usepackage [] needs to be PDFOnly if using pdflatex and never using tex4ht
+\usepackage[PDFOnly]{optional}
+
+\input DocStartMath.tex
+
+
+% Default is to make a PDF version
+\provideboolean{PDFOut}\setboolean{PDFOut}{true}
+\provideboolean{HTMOut}\setboolean{HTMOut}{false}
+
+% If called with option Web, don't make PDF version
+\opt{Web}{\setboolean{PDFOut}{false}\setboolean{HTMOut}{true}}
+
+\providecommand{\ifPDF}{\ifthenelse{\boolean{PDFOut}}}
+\providecommand{\ifHTM}{\ifthenelse{\boolean{HTMOut}}}
+
+% Necessary because epstopdf requires pdftex but is not compatible with the dvi output option, which is needed for tex4ht
+\ifthenelse{\boolean{PDFOut}}
+  {\input pdfFromEPSWithHyper.tex}
+  {\input htmFromPNGWithHyper.tex}
+
+
+\newcommand{\CDCFig}[1]{\ifPDF{\includegraphics[width=1\textwidth]{../Figures/#1.eps}}{\includegraphics{#1.png}}}
+
+\usepackage{ifpdf}

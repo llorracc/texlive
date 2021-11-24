@@ -1,0 +1,46 @@
+\usepackage{cancel,ulem,verbatim,amsmath,amssymb,amsfonts,dcolumn,multicol,latexsym,ifthen,vmargin,afterpage
+%NEWPNTS
+,Endnotes,moreverb
+%,psibycus % Greek language package, including koppa 
+,bm
+,hhline % Allow double hlines
+%,trace  % \traceon and \traceoff are defined for debugging purposes
+%,lscape % LSCAPE CONFLICTS WITH EPSTOPDF % Put pages that need to be in landscape mode inside \begin{landscape}\end{landscape}
+,natbib
+,tipa   % Define more characters, in particular the \textthorn character
+}
+\usepackage[mathscr]{eucal}
+\usepackage[usenames]{color}
+
+\newtheorem{corollary}{Corollary}
+\newtheorem{defn}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{prop}{Proposition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{Fact}{Fact}
+\renewcommand{\theequation}{\arabic{equation}}
+
+\renewenvironment{quote} 
+               {\list{}{\rightmargin\leftmargin \setlength{\parsep}{.1in}}%
+                \item\relax}
+               {\endlist}
+
+\setmarginsrb{1.2in}{1.5in}{1.4in}{1.5in}{0in}{0in}{22pt}{20pt}
+% {left}{top}{right}{bottom}{headheight}{headsep}{footheight}{footskip}
+
+\newcommand{\wideMargins}{\setmarginsrb{0.5in}{0.5in}{0.5in}{0.5in}{0in}{0in}{22pt}{20pt}}
+
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+
+\hbadness 10000
+
+\pagestyle{plain}
+\thispagestyle{empty}
+
+\newcommand{\koppa}{q}
+\newcommand{\Koppa}{Q}
+
+% \newcommand{\koppa}{{\greek{}k+}}  % Commands if psibycus is correctly loaded
+%\newcommand{\Koppa}{{\greek{}K+}}
+
+\def\liminf{\mathop{\rm lim\, inf}\limits}%

@@ -1,0 +1,34 @@
+\documentclass{book}
+\usepackage{printvrb}
+\namesinmargin
+
+\begin{document}
+
+Here are some tests of the writetofile macro:
+\begin{writetofile}{EulerIsMyFriend}
+{Here is First test
+     \begin{eqnarray}
+asdf&asdf\\
+asdf&asdf
+\end{eqnarray}}
+\end{writetofile}
+
+\vskip36pt
+
+
+\begin{writetofile}{SomethingElse}
+{Or, anything else like:
+\begin{tabular}{ccc}
+a&test&to show off\\
+what happens&with&writetofile
+\end{tabular}
+}
+\end{writetofile}
+
+\vskip36pt
+
+\begin{writetofile}{ThirdTest223}
+{this is third test}
+\end{writetofile}
+
+\end{document}

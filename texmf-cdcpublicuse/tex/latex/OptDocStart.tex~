@@ -1,0 +1,26 @@
+% Use for documents which can optionally be either PDF or Web documents
+% Determined on-the-fly at runtime by setting of the option Web
+% Useful for command line scripts that want to create both html and pdf outputs from the same LaTeX inputs
+
+% argument to usepackage [] needs to be Web if using tex4ht to create html code, Global otherwise
+\usepackage[OptDoc]{optional}
+
+% Define shorthand commands for linking to public notes; can't be done until optional package loaded
+\input HandoutLinks.tex
+
+% Default is to make a PDF version
+\provideboolean{PDFMake}\setboolean{PDFMake}{true}
+
+% If called with option Web, don't make PDF version
+\opt{Web}{\setboolean{PDFMake}{false}}
+
+% Necessary because epstopdf requires pdftex but is not compatible with the dvi output option, which is needed for tex4ht
+\ifthenelse{\boolean{PDFMake}}
+  {\input pdfFromEPSWithHyper.tex}
+  {\input htmFromEPSWithHyper.tex}
+
+\provideboolean{MarginNotes}
+\provideboolean{MarginNotes}\setboolean{MarginNotes}{false}
+\opt{MarginNotesOn}{\setboolean{MarginNotes}{true}}
+
+\input MathDocStart.tex

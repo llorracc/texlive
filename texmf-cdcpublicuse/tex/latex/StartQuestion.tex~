@@ -1,0 +1,3 @@
+\documentclass[]{examCDC}\usepackage{examCDC}\setboolean{ShowAnswers}{false}\newboolean{StandAlone}\setboolean{StandAlone}{true}\begin{document}
+
+\ifthenelse{\boolean{StandALone}}{\end{document}}{}

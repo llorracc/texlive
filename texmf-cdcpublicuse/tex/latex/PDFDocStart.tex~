@@ -1,0 +1,36 @@
+% argument to usepackage [] needs to be Web if using tex4ht to create html code, Global otherwise
+\usepackage[PDFDoc]{optional}
+
+% Define shorthand commands for linking to public notes; can't be done until optional package loaded
+\input HandoutLinks.tex
+
+% Default is to make a PDF version
+\provideboolean{PDFMake}\setboolean{PDFMake}{true}
+
+\input pdfFromEPSWithHyper.tex
+
+\provideboolean{MarginNotes}
+\provideboolean{MarginNotes}\setboolean{MarginNotes}{false}
+\opt{MarginNotesOn}{\setboolean{MarginNotes}{true}}
+
+\usepackage[pdftex]{hyperref}
+
+\definecolor{darkblue}{rgb}{0.055,0.094,0.588}
+\definecolor{darkred}{rgb}{0.69,0,0.0157}
+\hypersetup{colorlinks=true, %false,
+            urlcolor=darkred,
+            citecolor=darkblue,
+            linkcolor=red, %Magenta,
+            baseurl={https://www.econ2.jhu.edu/people/ccarroll/},
+            pdfpagemode=UseOutlines,
+            pdfstartview=FitH,
+            pdfauthor={Christopher Carroll <ccarroll@jhu.edu>},
+            pdftitle={\jobname},
+            pdfsubject={},
+            pdfkeywords={},
+            pdfproducer = {LaTeX with hyperref and thumbpdf},
+            pdfcreator = {ps2pdf, pdfwrite}
+            }
+
+
+\input MathDocStart.tex

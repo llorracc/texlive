@@ -1,0 +1,54 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  22 JAN 2012 23:20
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**bejournal.cls
+(./bejournal.cls
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
+, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, u
+kenglish, usenglishmax, esperanto, estonian, farsi, finnish, french, galician, 
+german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese,
+ bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, 
+telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
+ lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
+nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
+ turkmen, ukrainian, uppersorbian, welsh, loaded.
+
+LaTeX Warning: You have requested package `',
+               but the package provides `bejournal'.
+
+Package: bejournal 2011/04/04 LaTeX class for the Berkeley Electronic Journals,
+ version 1.4
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/changepage/chngpage.sty
+Package: chngpage 2009/10/20 v1.2b change page layout
+\c@cp@cnt=\count79
+\c@cp@tempcnt=\count80
+)
+! You can't use `\spacefactor' in vertical mode.
+\@->\spacefactor 
+                 \@m 
+l.42 \@
+       ifundefined{pdfoutput}{}{\ifnum\pdfoutput>0 \dvifalse\fi}
+? 
+! Emergency stop.
+\@->\spacefactor 
+                 \@m 
+l.42 \@
+       ifundefined{pdfoutput}{}{\ifnum\pdfoutput>0 \dvifalse\fi}
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 100 strings out of 493747
+ 1323 string characters out of 3143546
+ 49070 words of memory out of 3000000
+ 3483 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 16i,0n,14p,139b,10s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

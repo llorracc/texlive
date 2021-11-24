@@ -1,0 +1,25 @@
+% argument to usepackage [] needs to be Web if using tex4ht to create html code, Global otherwise
+% After document has been compiled under these options, do htlatex FileName.tex
+\usepackage[WebOnly]{optional}
+
+\input DocStartMath.tex
+
+% Default is to make a PDF version
+\provideboolean{PDFOut}\setboolean{PDFOut}{true}
+\provideboolean{HTMOut}\setboolean{HTMOut}{false}
+
+% If called with option Web, don't make PDF version
+\opt{WebOnly}{\setboolean{PDFOut}{false}\setboolean{HTMOut}{true}}
+
+\providecommand{\ifPDF}{\ifthenelse{\boolean{PDFOut}}}
+\providecommand{\ifHTM}{\ifthenelse{\boolean{HTMOut}}}
+
+\newcommand{\CDCFig}[1]{\ifPDF{\includegraphics[width=1\textwidth]{../Figures/#1.eps}}{\includegraphics{#1.png}}}
+
+\input htmFromPNGWithHyper.tex
+
+\usepackage{ifpdf}
+
+\ifpdf
+  \renewcommand{\Ex}{E}
+\fi

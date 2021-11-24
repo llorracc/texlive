@@ -1,0 +1,13 @@
+% Default option in Aquamacs Emacs; associated with TeX-mode-PDF;
+% Without package epstopdf, requires figures to be in PDF form; epstopdf converts them on the fly 
+% Documents containing \usepackage[pdftex]{graphicx} WILL NOT COMPILE via the usual latex dvi to dvips mode if they use eps graphics
+
+\typeout{Using PDFwithHyper}
+\usepackage[pdftex]{graphicx} \input HyperrefSetupPDF.tex
+\newcommand{\wideMargins}{\input wideMargins.tex}
+
+\newcommand{\CDCFig}[1]{\includegraphics[width=1\textwidth]{../Figures/#1.pdf}}
+
+\provideboolean{bigPrint}\setboolean{bigPrint}{false}
+
+

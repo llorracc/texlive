@@ -1,0 +1,21 @@
+#!/bin/tcsh
+
+cd $EXAMDIR
+
+pdflatex --shell-escape -interaction batchmode -jobname $EXAMNAME "\nonstopmode\def\UseOption{Answers}\input{$EXAMNAME.tex}"
+pdflatex --shell-escape -interaction batchmode -jobname $EXAMNAME "\nonstopmode\def\UseOption{Answers}\input{$EXAMNAME.tex}"
+bibtex $EXAMNAME
+pdflatex --shell-escape -interaction batchmode -jobname $EXAMNAME "\nonstopmode\def\UseOption{Answers}\input{$EXAMNAME.tex}"
+
+mv -f  $EXAMNAME.pdf $EXAMANSWERS.pdf
+
+open -a TeXShop.app $EXAMANSWERS.pdf
+
+
+pdflatex --shell-escape -interaction batchmode -jobname $EXAMNAME "\nonstopmode\input{$EXAMNAME.tex}"
+pdflatex --shell-escape -interaction batchmode -jobname $EXAMNAME "\nonstopmode\input{$EXAMNAME.tex}"
+bibtex $EXAMNAME
+pdflatex --shell-escape -interaction batchmode -jobname $EXAMNAME "\nonstopmode\input{$EXAMNAME.tex}"
+
+open -a TeXShop.app $EXAMNAME.pdf
+

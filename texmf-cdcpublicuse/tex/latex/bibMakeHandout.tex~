@@ -1,0 +1,5 @@
+
+\write18{if [ ! -f \jobname.bib ]; then touch \jobname.bib ; fi}
+
+\bibliographystyle{./LaTeX-Inputs/bejournal}
+\bibliography{\jobname,economics}

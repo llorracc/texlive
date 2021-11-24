@@ -1,0 +1,22 @@
+% Used for documents which can optionally be either 
+%     - PDF documents with figures constructed from EPS files, or 
+%     - HTM documents with PNG figures used directly
+% Method is determined on-the-fly at runtime by 
+% the setting of the option Web which should be set in the .cfg file used by htlatex
+% The needed cfg file can be constructed by running the script ~/Library/texmf/tex/latex/tex4htMakeCFG.sh
+
+\usepackage[PDForHTM]{optional}
+
+% Default is to make a PDF version
+\provideboolean{PDFOut}\setboolean{PDFOut}{true}
+\providecommand{\ifPDF}{\ifthenelse{\boolean{PDFOut}}}
+\providecommand{\ifHTM}{\ifthenelse{\not{\boolean{PDFOut}}}}
+
+% If called with option Web, don't make PDF version
+\opt{Web}{\setboolean{PDFOut}{false}}
+
+% Necessary because epstopdf requires pdftex but is not compatible with the dvi output option, which is needed for tex4ht
+\ifthenelse{\boolean{PDFOut}}
+  {\input pdfFromEPSWithHyper.tex}
+  {\input htmFromPNGWithHyper.tex}
+

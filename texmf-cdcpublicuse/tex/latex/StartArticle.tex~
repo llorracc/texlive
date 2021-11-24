@@ -1,0 +1,17 @@
+\documentclass[12pt]{article}
+\usepackage{packages}
+
+\setmarginsrb{1.2in}{1.2in}{1.5in}{0.5in}{0pt}{0pt}{0pt}{1.3in}
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+
+
+
+\begin{document}
+
+\bibliographystyle{econometricaFullnames}
+\bibliography{economics}
+
+
+\end{document}
+
+

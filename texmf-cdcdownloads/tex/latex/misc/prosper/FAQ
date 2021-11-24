@@ -1,0 +1,44 @@
+CVSId: $Id: FAQ,v 1.2 2001/01/26 08:26:28 exupery Exp $
+
+                         Frequently Asked Questions
+                                  on Prosper
+
+[1] Is it possible to switch Acrobat Reader in full screen mode on startup?
+[2] How to use Type 1 fonts with MikTeX or teTeX?
+
+
+
+
+
+
+
+
+
+**************************************************************************
+
+
+[1] Is it possible to switch Acrobat Reader in full screen mode on startup?
+
+Yes. Just add 
+
+\hypersetup{pdfpagemode=FullScreen}
+
+in the preamble of your LaTeX file.
+
+
+
+[2] How to use Type 1 fonts with MikTeX or teTeX?
+
+For both MikTeX and teTeX, you have to add at least the two lines:
+
+p +psfonts.cmz
+p +psfonts.amz
+
+
+For MikTeX:
+-----------
+Add the lines to the file \texmf\dvips\config\config.ps
+
+For teTeX:
+----------
+Add the lines to the file ~/.dvipsrc (create it if it does not exist already) 

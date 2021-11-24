@@ -1,0 +1,2 @@
+\ifthenelse{\boolean{ShowAnswers}}{\begin{quote}{\it Answer:}
+\end{quote}}{\pagebreak}{\pagebreak}

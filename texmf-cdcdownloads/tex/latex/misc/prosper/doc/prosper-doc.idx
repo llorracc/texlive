@@ -1,0 +1,84 @@
+\indexentry {transitions!supported}{1}
+\indexentry {Split@\texttt {Split}}{1}
+\indexentry {Blinds@\texttt {Blinds}}{1}
+\indexentry {Box@\texttt {Box}}{1}
+\indexentry {Wipe@\texttt {Wipe}}{1}
+\indexentry {Dissolve@\texttt {Dissolve}}{1}
+\indexentry {Glitter@\texttt {Glitter}}{1}
+\indexentry {Replace@\texttt {Replace}}{1}
+\indexentry {draft@\texttt {draft}}{1}
+\indexentry {slide@\texttt {slide} environment}{2}
+\indexentry {final@\texttt {final}}{2}
+\indexentry {slideCaption@\texttt {\textbackslash slideCaption}}{2}
+\indexentry {displayVersion@\texttt {\textbackslash displayVersion}}{2}
+\indexentry {slideColor@\texttt {slideColor}}{2}
+\indexentry {slideBW@\texttt {slideBW}}{2}
+\indexentry {total@\texttt {total}}{2}
+\indexentry {nototal@\texttt {nototal}}{2}
+\indexentry {nocolorBG@\texttt {nocolorBG}}{2}
+\indexentry {colorBG@\texttt {colorBG}}{2}
+\indexentry {ps@\texttt {ps}}{2}
+\indexentry {pdf@\texttt {pdf}}{2}
+\indexentry {accumulate@\texttt {accumulate}}{2}
+\indexentry {untilSlide@\texttt {\textbackslash untilSlide}}{2}
+\indexentry {fromSlide@\texttt {\textbackslash fromSlide}}{2}
+\indexentry {onlySlide@\texttt {\textbackslash onlySlide}}{2}
+\indexentry {Accumulatetrue@\texttt {\textbackslash Accumulatetrue}}{2}
+\indexentry {Accumulatefalse@\texttt {\textbackslash Accumulatefalse}}{2}
+\indexentry {noaccumulate@\texttt {noaccumulate}}{2}
+\indexentry {distiller@\texttt {distiller}}{2}
+\indexentry {preamble}{3}
+\indexentry {title@\texttt {\textbackslash title}}{3}
+\indexentry {subtitle@\texttt {\textbackslash subtitle}}{3}
+\indexentry {author@\texttt {\textbackslash author}}{3}
+\indexentry {email@\texttt {\textbackslash email}}{3}
+\indexentry {institution@\texttt {\textbackslash institution}}{3}
+\indexentry {slideCaption@\texttt {\textbackslash slideCaption}}{3}
+\indexentry {Logo@\texttt {\textbackslash Logo}}{3}
+\indexentry {Logo@\texttt {\textbackslash Logo}}{3}
+\indexentry {displayVersion@\texttt {\textbackslash displayVersion}}{3}
+\indexentry {DefaultTransition@\texttt {\textbackslash DefaultTransition}}{3}
+\indexentry {transition!default}{3}
+\indexentry {NoFrenchBabelItemize@\texttt {\textbackslash NoFrenchBabelItemize}}{3}
+\indexentry {Itemize@\texttt {Itemize} environment}{3}
+\indexentry {itemize@\texttt {itemize} environment}{3}
+\indexentry {itemstep@\texttt {itemstep} environment}{3}
+\indexentry {part@\texttt {\textbackslash part}}{3}
+\indexentry {FontTitle@\texttt {\textbackslash FontTitle}}{4}
+\indexentry {FontText@\texttt {\textbackslash FontText}}{4}
+\indexentry {fontTitle@\texttt {\textbackslash fontTitle}}{4}
+\indexentry {fontText@\texttt {\textbackslash fontText}}{4}
+\indexentry {ColorFoot@\texttt {\textbackslash ColorFoot}}{4}
+\indexentry {PDFtransition@\texttt {\textbackslash PDFtransition}}{4}
+\indexentry {myitem@\texttt {\textbackslash myitem}}{4}
+\indexentry {overlays@\texttt {\textbackslash overlays}}{4}
+\indexentry {fromSlide@\texttt {\textbackslash fromSlide}}{4}
+\indexentry {onlySlide@\texttt {\textbackslash onlySlide}}{4}
+\indexentry {untilSlide@\texttt {\textbackslash untilSlide}}{4}
+\indexentry {FromSlide@\texttt {\textbackslash FromSlide}}{4}
+\indexentry {OnlySlide@\texttt {\textbackslash OnlySlide}}{4}
+\indexentry {UntilSlide@\texttt {\textbackslash UntilSlide}}{4}
+\indexentry {fromSlide@\texttt {\textbackslash fromSlide}!stared}{4}
+\indexentry {onlySlide@\texttt {\textbackslash onlySlide}!stared}{4}
+\indexentry {untilSlide@\texttt {\textbackslash untilSlide}!stared}{4}
+\indexentry {PDForPS@\texttt {\textbackslash PDForPS}}{5}
+\indexentry {onlyInPS@\texttt {\textbackslash onlyInPS}}{5}
+\indexentry {onlyInPDF@\texttt {\textbackslash onlyInPDF}}{5}
+\indexentry {slide!display area}{5}
+\indexentry {GS\_OPTIONS@\texttt {GS\_OPTIONS}}{8}
+\indexentry {PAPERSIZE@\texttt {\textbackslash PAPERSIZE}}{8}
+\indexentry {ifDVItoPS@\texttt {\textbackslash ifDVItoPS}}{9}
+\indexentry {ifisDraft@\texttt {\textbackslash ifisDraft}}{9}
+\indexentry {ifinColor@\texttt {\textbackslash ifinColor}}{9}
+\indexentry {ifallPages@\texttt {\textbackslash ifallPages}}{9}
+\indexentry {ifcolorBG@\texttt {\textbackslash ifcolorBG}}{9}
+\indexentry {ifshowVersion@\texttt {\textbackslash ifshowVersion}}{9}
+\indexentry {ifInOverlays@\texttt {\textbackslash ifInOverlays}}{9}
+\indexentry {slideCaption@\texttt {\textbackslash slideCaption}}{9}
+\indexentry {PDFCroppingBox@\texttt {\textbackslash PDFCroppingBox}}{9}
+\indexentry {bounding box}{9}
+\indexentry {NewSlideStyle@\texttt {\textbackslash NewSlideStyle}}{9}
+\indexentry {LogoPosition@\texttt {\textbackslash LogoPosition}}{9}
+\indexentry {PutLogo@\texttt {\textbackslash PutLogo}}{9}
+\indexentry {slideWidth@\texttt {\textbackslash slideWidth}}{9}
+\indexentry {NewSlideStyle@\texttt {NewSlideStyle}}{9}

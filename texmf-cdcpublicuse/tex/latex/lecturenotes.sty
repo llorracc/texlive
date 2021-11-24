@@ -1,0 +1,17 @@
+
+%\provideboolean{MyNotes}
+
+\setmarginsrb{1.2in}{1in}{1.4in}{1.4in}{0pt}{0pt}{22pt}{36pt}
+% {left}{top}{right}{bottom}{headheight}{headsep}{footheight}{footskip}
+
+\ifthenelse{\boolean{MyNotes}}{
+\setmarginsrb{0.7in}{1in}{1.9in}{1.4in}{0pt}{0pt}{22pt}{36pt}
+% {left}{top}{right}{bottom}{headheight}{headsep}{footheight}{footskip}
+\setlength{\marginparwidth}{90pt} %Default is 71pt
+}{}
+
+\provideboolean{makeHTML}
+\setboolean{makeHTML}{false}
+\newcommand{\ifHTML}{\ifthenelse{\boolean{makeHTML}}}
+
+\pagestyle{plain}\thispagestyle{empty}

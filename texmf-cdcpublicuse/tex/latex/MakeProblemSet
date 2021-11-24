@@ -1,0 +1,21 @@
+#!/bin/tcsh
+
+cd $HANDOUTDIR/$HANDOUTNAME
+ 
+pdflatex --shell-escape -interaction batchmode -jobname $HANDOUTNAME "\newcommand\UseOption{Answers}\nonstopmode\input{$HANDOUTNAME}"
+bibtex $HANDOUTNAME
+pdflatex --shell-escape -interaction batchmode -jobname $HANDOUTNAME "\newcommand\UseOption{Answers}\nonstopmode\input{$HANDOUTNAME}"
+pdflatex --shell-escape -interaction batchmode -jobname $HANDOUTNAME "\newcommand\UseOption{Answers}\nonstopmode\input{$HANDOUTNAME}"
+
+mv $HANDOUTNAME.pdf $HANDOUTNOTES.pdf
+
+open $HANDOUTNOTES.pdf
+ditto -f $HANDOUTNOTES.pdf ..
+
+pdflatex --shell-escape -interaction batchmode -jobname $HANDOUTNAME "\newcommand\UseOption{Questions}\nonstopmode\input{$HANDOUTNAME}"
+bibtex $HANDOUTNAME
+pdflatex --shell-escape -interaction batchmode -jobname $HANDOUTNAME "\newcommand\UseOption{Questions}\nonstopmode\input{$HANDOUTNAME}"
+pdflatex --shell-escape -interaction batchmode -jobname $HANDOUTNAME "\newcommand\UseOption{Questions}\nonstopmode\input{$HANDOUTNAME}"
+
+cp -f $HANDOUTNAME.pdf ..
+open $HANDOUTNAME.pdf

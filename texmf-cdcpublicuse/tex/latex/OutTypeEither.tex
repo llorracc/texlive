@@ -1,0 +1,55 @@
+% Used to optionally create either of two kinds of documents 
+%     - PDF documents with figures constructed from EPS files (the default), or 
+%     - HTM documents with PNG figures that live in the document root directory 
+% Method is determined on-the-fly at runtime by the setting of 
+% the option Web which should be set in the .cfg file used by htlatex
+% The needed cfg file can be constructed by running the script ~/Library/texmf/tex/latex/tex4htMakeCFG.sh
+
+\usepackage[PDForHTM]{optional}
+
+\input DocStartMath.tex
+
+% Default is to make a PDF version
+\provideboolean{PDFOut}\setboolean{PDFOut}{true}
+\provideboolean{HTMOut}\setboolean{HTMOut}{false}
+
+% Set up infrastructure to test
+\newif\ifdvi\dvitrue
+\makeatletter
+\@ifundefined{pdfoutput}{}{\ifnum\pdfoutput>0 \dvifalse\fi}
+\makeatother
+
+\ifdvi \provideboolean{PDFOut}\setboolean{PDFOut}{false} \fi
+\ifdvi \provideboolean{HTMOut}\setboolean{HTMOut}{true} \fi
+
+% If called with option Web, don't make PDF version
+\opt{Web}{\setboolean{PDFOut}{false}\setboolean{HTMOut}{true}}
+
+\usepackage{ifpdf}
+
+\providecommand{\ifPDF}{\ifthenelse{\boolean{PDFOut}}}
+\providecommand{\ifHTM}{\ifthenelse{\boolean{HTMOut}}}
+
+
+% Necessary because epstopdf requires pdftex but is not compatible with the dvi output option, which is needed for tex4ht
+\ifthenelse{\boolean{PDFOut}}
+  {\input PDFwithHyper.tex}
+  {\input htmFromPNGWithHyper.tex}
+
+\provideboolean{tex4htMode}
+\ifx \HCode\Undef
+\setboolean{tex4htMode}{true}
+\else
+\setboolean{tex4htMode}{false}
+\fi
+
+
+\provideboolean{tex4htCDC}
+
+\opt{Public}{\setboolean{bigPrint}{false}}
+\opt{Public}{\setboolean{wideMargins}{false}}
+\opt{Public}{\setboolean{BigAndWide}{false}}
+
+\opt{bigWide}{\setboolean{wideMargins}{true}}
+\opt{bigWide}{\setboolean{bigPrint}{true}}
+\opt{bigWide}{\setboolean{BigAndWide}{true}}

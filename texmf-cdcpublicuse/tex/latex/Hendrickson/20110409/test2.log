@@ -1,0 +1,202 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  22 APR 2011 21:16
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**\newcommand\UseOption{bigWide} \input test2.tex
+(./test2.tex (/usr/local/texlive/2010/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./printvrb.sty
+(/Users/Shared/Library/texmf-cdcpublicuse/tex/latex/moreverb.sty
+Package: moreverb 1994/12/13 v2.0 LaTeX2e package for `more' verbatim enhanceme
+nts
+
+Package: `moreverb' v2.0 <1994/12/13> (RF, after AJCD and RmS)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+\verbatim@out=\write3
+\tab@position=\count88
+\tab@size=\count89
+\verbatimtabsize=\count90
+\listing@line=\count91
+\listing@step=\count92
+\verbtab@in=\read2
+)
+\verbatimout=\write4
+\definitionnumber=\count93
+) (./test.vrb) (./test2.aux)
+\openout1 = `test2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 14.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+[1{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math1' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math1-Bold' already exists, duplicate
+s ignored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math1Mono' already exists, duplicates
+ ignored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math1Mono-Bold' already exists, dupli
+cates ignored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math2' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math2-Bold' already exists, duplicate
+s ignored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math2Mono' already exists, duplicates
+ ignored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math2Mono-Bold' already exists, dupli
+cates ignored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math3' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math3-Bold' already exists, duplicate
+s ignored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math3Mono' already exists, duplicates
+ ignored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math3Mono-Bold' already exists, dupli
+cates ignored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math4' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math4-Bold' already exists, duplicate
+s ignored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math4Mono' already exists, duplicates
+ ignored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math4Mono-Bold' already exists, dupli
+cates ignored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math5' already exists, duplicates ign
+ored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math5-Bold' already exists, duplicate
+s ignored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math5Mono' already exists, duplicates
+ ignored
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2010/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): fontmap entry for `Math5Mono-Bold' already exists, dupli
+cates ignored
+}
+
+] (./test2.aux) ) 
+Here is how much of TeX's memory you used:
+ 352 strings out of 493747
+ 4353 string characters out of 3143546
+ 53704 words of memory out of 3000000
+ 3710 multiletter control sequences out of 15000+200000
+ 4161 words of font info for 16 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 25i,6n,19p,194b,152s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmtt10.pfb>
+Output written on test2.pdf (1 page, 49709 bytes).
+PDF statistics:
+ 24 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

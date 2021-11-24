@@ -1,0 +1,17 @@
+\usepackage{EconCDCPackages}
+\usepackage{EconShortcuts}
+
+\provideboolean{bigPrint}
+\setboolean{bigPrint}{true}
+%\setboolean{bigPrint}{false}
+\newcommand{\ifBigPrint}{\ifthenelse{\boolean{bigPrint}}}
+
+\provideboolean{wideMargins}
+\setboolean{wideMargins}{true}
+%\setboolean{wideMargins}{false}
+\newcommand{\ifWide}{\ifthenelse{\boolean{wideMargins}}}
+
+%\newcommand{\together}{\parbox{\linewidth}}
+\newcommand{\together}[1]{\noindent\parbox{\linewidth}{#1}} % Can't use for keeping ALL answers together because some answers include figures which are not allowed inside a parbox
+
+

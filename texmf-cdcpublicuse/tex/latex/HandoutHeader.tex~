@@ -1,0 +1,6 @@
+{\tiny \noindent $^\copyright$\today, \href{https://www.econ2.jhu.edu/people/ccarroll/}{Christopher D. Carroll} \hfill \jobname}\medskip\medskip
+\ifthenelse{\boolean{bigPrint}}{\large}{}
+\ifthenelse{\boolean{BigAndWide}}{\large}{}
+\opt{Web}{\large}
+\opt{bigWide}{\large}
+

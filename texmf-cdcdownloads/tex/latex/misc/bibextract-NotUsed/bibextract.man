@@ -1,0 +1,149 @@
+.\" ====================================================================
+.\"  @Troff-man-file{
+.\"     author          = "Nelson H. F. Beebe",
+.\"     version         = "1.02",
+.\"     date            = "30 October 1992",
+.\"     time            = "19:45:51 MST",
+.\"     filename        = "bibextract.man",
+.\"     address         = "Center for Scientific Computing
+.\"                        Department of Mathematics
+.\"                        University of Utah
+.\"                        Salt Lake City, UT 84112
+.\"                        USA",
+.\"     telephone       = "+1 801 581 5254",
+.\"     FAX             = "+1 801 581 4148",
+.\"     checksum        = "43595 149 608 5180",
+.\"     email           = "beebe@math.utah.edu (Internet)",
+.\"     codetable       = "ISO/ASCII",
+.\"     keywords        = "bibliography, BibTeX",
+.\"     supported       = "yes",
+.\"     docstring       = "This file contains the UNIX manual pages
+.\"                        for the bibextract command, a shell script
+.\"                        that invokes an awk program to extract from
+.\"                        a list of BibTeX .bib files bibliography
+.\"                        entries that match a specified regular
+.\"                        expression.
+.\"
+.\"                        The checksum field above contains a CRC-16
+.\"                        checksum as the first value, followed by the
+.\"                        equivalent of the standard UNIX wc (word
+.\"                        count) utility output of lines, words, and
+.\"                        characters.  This is produced by Robert
+.\"                        Solovay's checksum utility.",
+.\"  }
+.\" ====================================================================
+.if t .ds Bi B\s-2IB\s+2T\\h'-0.1667m'\\v'0.20v'E\\v'-0.20v'\\h'-0.125m'X
+.if n .ds Bi BibTeX
+.TH BIBEXTRACT 1 "30 October 1992" "Version 1.02"
+.\"======================================================================
+.SH NAME
+bibextract \- extract BibTeX entries from a list of .bib files
+.\"======================================================================
+.SH SYNOPSIS
+.BI bibextract " keyword-regexp value-regexp bibfile(s)"
+.\"======================================================================
+.SH DESCRIPTION
+.B bibextract
+extracts from a list of \*(Bi\&
+.I .bib
+files those bibliography entries that match a pair of specified
+regular expressions, sending them to
+.IR stdout ,
+together with all \*(Bi\& ``@Preamble{.\|.\|.}''
+and ``@String{.\|.\|.}'' commands.
+.PP
+The first regular-expression pattern,
+.IR keyword-regexp ,
+is used to select which  \fI``keyword = "value"''\fP
+pairs to examine further; it matches against the
+keyword part only.  If it is an empty string, then
+all such pairs are examined.
+.PP
+The second regular-expression pattern,
+.IR value-regexp ,
+is used to further select from the value strings
+of \fI``keyword = "value"''\fP pairs the
+bibliography entries to be output.  The selection
+algorithm therefore consists of the logical AND of
+match successes against the keyword and value
+strings.
+.PP
+.B bibextract
+can be used to extract from a large \*(Bi\&
+bibliography data base just those bibliography
+entries that match a particular pair of regular
+expressions.
+.\"======================================================================
+.SH EXAMPLES
+Here are some examples:
+.PP
+Extract all entries mentioning chaos in any field:
+.IP
+.B bibextract
+\&\fI"" "chaos" bibfile(s) >new-bibtex-file"\fP
+.PP
+Extract entries with names Brown or Smith
+occurring in either of the author or editor
+fields:
+.IP
+.B bibextract
+\&\fI"author|editor" "brown|smith" bibfile(s) >new-bibtex-file\fP
+.PP
+Extract entries for titles containing the
+letter `z' anywhere after a vowel; note that
+single quotes are necessary to provide the
+necessary protection from shell expansion:
+.IP
+.B bibextract
+\&\fI"title" '[aeiou].*z' bibfile(s) >new-bibtex-file\fP
+.\"======================================================================
+.SH BUGS
+.B bibextract
+is not smart enough to incorporate \*(Bi\& cross
+references unless they are themselves matched by
+the specified regular expression.
+.PP
+That feature should be added.
+.\"======================================================================
+.SH "SEE ALSO"
+.BR bibclean (1),
+.BR bibindex (1),
+.BR biblook (1),
+.BR bibsort (1),
+.BR bibtex (1),
+.BR citefind (1),
+.BR citetags (1),
+.BR latex (1),
+.BR nawk (1).
+.\"======================================================================
+.SH FILES
+.\" NB: LIBDIR and BINDIR are substituted for real directory names
+.\"     by a sed script invoked by "make install".
+.TP \w'@LIBDIR@/bibextract.awk'u+2n
+@LIBDIR@/bibextract.awk
+.BR nawk (1)
+program for tag extraction.
+.TP
+@BINDIR@/bibextract
+user-callable shell script to invoke
+.BR nawk (1).
+.\"======================================================================
+.SH AUTHOR
+Nelson H. F. Beebe, Ph.D.
+.br
+Center for Scientific Computing
+.br
+Department of Mathematics
+.br
+University of Utah
+.br
+Salt Lake City, UT 84112
+.br
+USA
+.br
+Tel: +1 801 581 5254
+.br
+FAX: +1 801 581 4148
+.br
+Email: <beebe@math.utah.edu>
+.\"==============================[The End]==============================

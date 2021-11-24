@@ -1,0 +1,787 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (INITEX)  4 FEB 2011 08:33
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+ (/usr/local/texlive/2009/texmf/web2c/natural.tcx)
+***cont-nl
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/cont-nl.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/context.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/context.mkii
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/syst-ini.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/syst-pln.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/norm-tex.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/norm-etx.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/norm-ptx.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/norm-xtx.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/norm-ctx.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/catc-ini.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/catc-act.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/catc-def.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/catc-ctx.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/catc-sym.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/syst-gen.mkii
+warning: \count \scratchcounter is already defined (\relax it first)
+warning: \count \globalscratchcounter is already defined (\relax it first)
+warning: \dimen \scratchdimen is already defined (\relax it first)
+warning: \dimen \globalscratchdimen is already defined (\relax it first)
+warning: \skip \scratchskip is already defined (\relax it first)
+warning: \skip \globalscratchskip is already defined (\relax it first)
+warning: \muskip \scratchmuskip is already defined (\relax it first)
+warning: \muskip \globalscratchmuskip is already defined (\relax it first)
+warning: \toks \scratchtoks is already defined (\relax it first)
+warning: \toks \globalscratchtoks is already defined (\relax it first)
+warning: \box \scratchbox is already defined (\relax it first)
+warning: \box \globalscratchbox is already defined (\relax it first)
+warning: \dimen \scratchdimenone is already defined (\relax it first)
+warning: \box \scratchboxone is already defined (\relax it first)
+warning: \count \scratchcounterone is already defined (\relax it first)
+warning: \dimen \scratchdimentwo is already defined (\relax it first)
+warning: \box \scratchboxtwo is already defined (\relax it first)
+warning: \count \scratchcountertwo is already defined (\relax it first)
+warning: \toks \emptytoks is already defined (\relax it first)
+loading         : ConTeXt System Macros / General
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/syst-ext.mkii
+loading         : ConTeXt System Macros / Extras
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/syst-new.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/syst-con.mkii
+loading         : ConTeXt System Macros / Conversions
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/thrd-trg.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/syst-fnt.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/syst-str.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/syst-rtp.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-fil.mkii
+loading         : ConTeXt Support Macros / Files
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-dir.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/mult-ini.mkii
+loading         : ConTeXt Multilingual Macros / Initialization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/mult-fst.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/mult-sys.tex
+loading         : ConTeXt Multilingual Macros / System
+interface       : defining dutch interface
+
+interface       : using dutch messages
+
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/mult-def.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/mult-nl.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/mult-mnl.tex))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/mult-chk.mkii
+loading         : ConTeXt Multilingual Macros / Checking
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-var.mkii
+loading         : ConTeXt Core Macros / Variables
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-env.mkii
+loading         : ConTeXt Core Macros / Environments
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-box.tex
+loading         : ConTeXt Support Macros / Boxes
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-mrk.mkii
+loading         : ConTeXt Support Macros / Marks
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-vis.tex
+loading         : ConTeXt Support Macros / Visualization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-fun.tex
+loading         : ConTeXt Support Macros / Fun Stuff
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-spe.mkii
+loading         : ConTeXt Support Macros / Specials
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-ran.mkii
+loading         : ConTeXt Support Macros / Random Number Generation
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/thrd-ran.mkii)
+loading         : using TeX's built in randomizer (overloading macro)
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-mps.mkii
+loading         : ConTeXt Support Macros / MetaPost Inclusion
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-tpi.mkii
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-eps.mkii
+loading         : ConTeXt Support Macros / EPS
+)
+loading         : ConTeXt Support Macros / TPIC Conversion
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-mat.tex
+loading         : ConTeXt Support Macros / Math
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-ali.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-num.tex
+loading         : ConTeXt Support Macros / Numbers
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/verb-ini.mkii
+loading         : ConTeXt Verbatim Macros / Initialization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-ins.mkii
+loading         : ConTeXt Core Macros / Insertions
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-fil.mkii
+loading         : ConTeXt Core Macros / File Support
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-con.mkii
+loading         : ConTeXt Core Macros / Conversion
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/cont-fil.tex
+loading         : ConTeXt File Synonyms
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/thrd-tab.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-pat.mkii
+loading         : ConTeXt Support Macros / Patterns
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/regi-ini.mkii
+regime          : regime def wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/regi-def.mkii)
+regime          : regime uni wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/regi-uni.mkii)
+regime          : regime utf wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/regi-utf.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/regi-syn.tex
+loading         : ConTeXt Regime Macros / Synonyms
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-ini.mkii
+loading         : ConTeXt Encoding Macros / Initialization
+encoding        : codering def wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-def.mkii)
+encoding        : codering acc wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-acc.mkii)
+encoding        : codering raw wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-raw.mkii)
+encoding        : codering com wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-com.mkii)
+encoding        : codering cas wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-cas.mkii)
+encoding        : codering mis wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-mis.mkii)
+encoding        : codering ans wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-ans.mkii)
+encoding        : codering il2 wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-il2.mkii)
+encoding        : codering ec wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-ec.mkii)
+encoding        : codering tbo wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-tbo.mkii)
+encoding        : codering pdf wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-pdf.mkii)
+encoding        : codering pol wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-pol.mkii)
+encoding        : codering qx wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-qx.mkii)
+encoding        : codering t5 wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-t5.mkii)
+encoding        : codering cyr wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-cyr.mkii)
+encoding        : codering agr wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-agr.mkii)
+encoding        : codering 032 wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-032.mkii)
+encoding        : onbekende codering 033
+encoding        : codering 037 wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-037.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/hand-ini.mkii
+handling        : font afhandeling def wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/hand-def.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-ini.mkii
+loading         : ConTeXt Language Macros / Initialization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-spe.mkii
+loading         : ConTeXt Language Macros / Specifics
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-lab.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-ini.mkii
+loading         : ConTeXt Unicode Support / Initialization
+warning         : \count \utf@c is already defined (\relax it first)
+unicode         : loading vector 0
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-000.mkii)
+unicode         : loading vector 1
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-001.mkii)
+unicode         : loading vector 2
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-002.mkii)
+unicode         : loading vector 3
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-003.mkii)
+unicode         : loading vector 4
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-004.mkii)
+unicode         : loading vector 5
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-005.mkii)
+unicode         : loading vector 30
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-030.mkii)
+unicode         : loading vector 31
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-031.mkii)
+unicode         : loading vector 32
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-032.mkii)
+unicode         : loading vector 33
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-033.mkii)
+unicode         : loading vector 34
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-034.mkii)
+unicode         : loading vector 35
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-035.mkii)
+unicode         : loading vector 37
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-037.mkii)
+unicode         : loading vector 39
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-039.mkii)
+unicode         : loading vector 251
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-251.mkii)
+unicode         : loading vector cjk
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/unic-cjk.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/core-gen.mkii
+loading         : ConTeXt Core Macros / General
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-uti.mkii
+loading         : ConTeXt Core Macros / Utility File Handling
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-two.mkii
+loading         : ConTeXt Core Macros / Two Pass Data
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-stg.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/spec-ini.mkii
+loading         : ConTeXt Special Macros / Initialization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/spec-mis.mkii
+loading         : ConTeXt Special Macros / Miscellaneous Macros
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/spec-def.mkii
+loading         : ConTeXt Special Macros / Definitions
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/spec-var.mkii
+loading         : ConTeXt Special Macros / Variables
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/colo-ini.mkii
+loading         : ConTeXt Color Macros / Initialization
+kleur           : specificatie [s=0] bij black wordt zwart
+kleur           : systeem rgb wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/colo-rgb.tex
+kleur           : specificatie [s=0] bij black wordt zwart
+)) (/usr/local/texlive/2009/texmf-dist/tex/context/base/colo-ext.mkii
+loading         : ConTeXt Color Macros / Extras
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-mis.mkii
+loading         : ConTeXt Language Macros / Compounds
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-url.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-ger.tex
+loading         : ConTeXt Language Macros / Germanic Languages
+taal            : afbreekpatronen nl voor nl geladen (n=1,e=texnansi,m=texnansi
+)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-nl.pat)
+taal            : afbreekdefinities nl voor nl geladen (n=1,e=texnansi,m=texnan
+si)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-nl.hyp)
+taal            : afbreekpatronen nl voor nl geladen (n=2,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-nl.pat)
+taal            : afbreekdefinities nl voor nl geladen (n=2,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-nl.hyp)
+taal            : afbreekpatronen us voor en geladen (n=3,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-us.pat)
+taal            : afbreekdefinities us voor en geladen (n=3,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-us.hyp)
+taal            : afbreekpatronen de voor de geladen (n=4,e=texnansi,m=texnansi
+)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-de.pat)
+taal            : afbreekdefinities de voor de geladen (n=4,e=texnansi,m=texnan
+si)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-de.hyp)
+taal            : afbreekpatronen de voor de geladen (n=5,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-de.pat)
+taal            : afbreekdefinities de voor de geladen (n=5,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-de.hyp)
+taal            : afbreekpatronen da voor da geladen (n=6,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-da.pat)
+taal            : afbreekdefinities da voor da geladen (n=6,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-da.hyp)
+taal            : afbreekpatronen sv voor sv geladen (n=7,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-sv.pat)
+taal            : afbreekdefinities sv voor sv geladen (n=7,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-sv.hyp)
+taal            : afbreekpatronen voor nb niet geladen
+taal            : afbreekpatronen voor nn niet geladen
+taal            : afbreekpatronen gb voor en-gb geladen (n=8,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-gb.pat)
+taal            : afbreekdefinities gb voor en-gb geladen (n=8,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-gb.hyp))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-ita.tex
+loading         : ConTeXt Language Macros / Italic Languages
+taal            : afbreekpatronen fr voor fr geladen (n=9,e=texnansi,m=texnansi
+)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-fr.pat)
+taal            : afbreekdefinities fr voor fr geladen (n=9,e=texnansi,m=texnan
+si)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-fr.hyp)
+taal            : afbreekpatronen fr voor fr geladen (n=10,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-fr.pat)
+taal            : afbreekdefinities fr voor fr geladen (n=10,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-fr.hyp)
+taal            : afbreekpatronen es voor es geladen (n=11,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-es.pat)
+taal            : afbreekdefinities es voor es geladen (n=11,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-es.hyp)
+taal            : afbreekpatronen ca voor ca geladen (n=12,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-ca.pat)
+taal            : afbreekdefinities ca voor ca geladen (n=12,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-ca.hyp)
+taal            : afbreekpatronen it voor it geladen (n=13,e=texnansi,m=texnans
+i)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-it.pat)
+taal            : afbreekdefinities it voor it geladen (n=13,e=texnansi,m=texna
+nsi)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-it.hyp)
+taal            : afbreekpatronen it voor it geladen (n=14,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-it.pat)
+taal            : afbreekdefinities it voor it geladen (n=14,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-it.hyp)
+taal            : afbreekpatronen la voor la geladen (n=15,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-la.pat)
+taal            : afbreekdefinities la voor la geladen (n=15,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-la.hyp)
+taal            : afbreekpatronen pt voor pt geladen (n=16,e=texnansi,m=texnans
+i)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-pt.pat)
+taal            : afbreekdefinities pt voor pt geladen (n=16,e=texnansi,m=texna
+nsi)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-pt.hyp)
+taal            : afbreekpatronen pt voor pt geladen (n=17,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-pt.pat)
+taal            : afbreekdefinities pt voor pt geladen (n=17,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-pt.hyp)
+taal            : afbreekpatronen ro voor ro geladen (n=18,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-ro.pat)
+taal            : afbreekdefinities ro voor ro geladen (n=18,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-ro.hyp))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-sla.tex
+loading         : ConTeXt Language Macros / Slavic Languages
+taal            : afbreekpatronen pl voor pl geladen (n=19,e=pl0,m=pl0)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-pl.pat)
+taal            : afbreekdefinities pl voor pl geladen (n=19,e=pl0,m=pl0)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-pl.hyp)
+taal            : afbreekpatronen pl voor pl geladen (n=20,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-pl.pat)
+taal            : afbreekdefinities pl voor pl geladen (n=20,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-pl.hyp)
+taal            : afbreekpatronen pl voor pl geladen (n=21,e=qx,m=qx)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-pl.pat)
+taal            : afbreekdefinities pl voor pl geladen (n=21,e=qx,m=qx)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-pl.hyp)
+taal            : afbreekpatronen cs voor cs geladen (n=22,e=il2,m=il2)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-cs.pat)
+taal            : afbreekdefinities cs voor cs geladen (n=22,e=il2,m=il2)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-cs.hyp)
+taal            : afbreekpatronen cs voor cs geladen (n=23,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-cs.pat)
+taal            : afbreekdefinities cs voor cs geladen (n=23,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-cs.hyp)
+taal            : afbreekpatronen sk voor sk geladen (n=24,e=il2,m=il2)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-sk.pat)
+taal            : afbreekdefinities sk voor sk geladen (n=24,e=il2,m=il2)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-sk.hyp)
+taal            : afbreekpatronen sk voor sk geladen (n=25,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-sk.pat)
+taal            : afbreekdefinities sk voor sk geladen (n=25,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-sk.hyp)
+taal            : afbreekpatronen hr voor hr geladen (n=26,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-hr.pat)
+taal            : afbreekdefinities hr voor hr geladen (n=26,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-hr.hyp)
+taal            : afbreekpatronen sl voor sl geladen (n=27,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-sl.pat)
+taal            : afbreekdefinities sl voor sl geladen (n=27,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-sl.hyp)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-sla.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-alt.tex
+loading         : ConTeXt Language Macros / Altaic Languages
+taal            : afbreekpatronen tr voor tr geladen (n=28,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-tr.pat)
+taal            : afbreekdefinities tr voor tr geladen (n=28,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-tr.hyp))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-ana.tex
+loading         : ConTeXt Language Macros / Anatolian Languages
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-art.tex
+loading         : ConTeXt Language Macros / Artificial Languages
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-bal.tex
+loading         : ConTeXt Language Macros / Baltic Languages
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-cel.tex
+loading         : ConTeXt Language Macros / Celtic Languages
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-grk.tex
+loading         : ConTeXt Language Macros / Greek
+taal            : geen afbreekpatronen gr voor gr (n=29,e=ec,m=ec) (lang-gr.pat
+,lang-gr.pat)
+taal            : geen afbreekdefinities gr voor gr (n=29,e=ec,m=ec)
+taal            : afbreekpatronen agr voor agr geladen (n=30,e=agr,m=agr)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-agr.pat)
+taal            : afbreekdefinities agr voor agr geladen (n=30,e=agr,m=agr)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-agr.hyp))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-ind.tex
+loading         : ConTeXt Language Macros / Indo-Iranian Languages
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-ura.tex
+loading         : ConTeXt Language Macros / Uralic Languages
+taal            : afbreekpatronen fi voor fi geladen (n=31,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-fi.pat)
+taal            : afbreekdefinities fi voor fi geladen (n=31,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-fi.hyp)
+taal            : afbreekpatronen hu voor hu geladen (n=32,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-hu.pat)
+taal            : afbreekdefinities hu voor hu geladen (n=32,e=ec,m=ec)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-hu.hyp))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-vn.tex
+loading         : ConTeXt Language Macros / Vietnamese Language
+taal            : geen afbreekpatronen vi voor vi (n=33,e=t5,m=t5) (lang-vi.pat
+,lang-vi.pat)
+taal            : geen afbreekdefinities vi voor vi (n=33,e=t5,m=t5)
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-cyr.tex
+loading         : ConTeXt Language Macros / Cyrillic Languages
+taal            : afbreekpatronen ru voor ru geladen (n=34,e=t2a,m=t2a)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-ru.pat)
+taal            : afbreekdefinities ru voor ru geladen (n=34,e=t2a,m=t2a)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-ru.hyp)
+taal            : afbreekpatronen uk voor ua geladen (n=35,e=t2a,m=t2a)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-uk.pat)
+taal            : afbreekdefinities uk voor ua geladen (n=35,e=t2a,m=t2a)
+(/usr/local/texlive/2009/texmf-dist/tex/context/patterns/lang-uk.hyp))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/typo-ini.mkii
+loading         : ConTeXt Typographic Macros / Initialization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/symb-ini.mkii
+loading         : ConTeXt Symbol Libraries / Initialization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/sort-ini.mkii
+loading         : ConTeXt Sorting Macros / Initialization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-spa.mkii
+loading         : ConTeXt Core Macros / Spacing
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-grd.mkii
+loading         : ConTeXt Core Macros / Grid Snapping
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-mar.mkii
+loading         : ConTeXt Structure Macros / Markings
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/anch-pos.mkii
+loading         : ConTeXt Anchoring Macros / Positioning
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/buff-ver.mkii
+loading         : ConTeXt Buffer Macros / Verbatim
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/buff-ini.mkii
+loading         : ConTeXt Buffer Macros / Buffers
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/pack-rul.mkii
+loading         : ConTeXt Packaging Macros / Ruled Content
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/trac-vis.mkii
+loading         : ConTeXt Tracking Macros / Visualization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-num.mkii
+loading         : ConTeXt Structure Macros / Numbering
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/tabl-pln.mkii
+loading         : ConTeXt Table Macros / Plain Tabular
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/tabl-tab.mkii
+loading         : ConTeXt Table Macros / TaBlE Embedding
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/tabl-tsp.mkii
+loading         : ConTeXt Table Macros / Splitting
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/scrn-nav.mkii
+loading         : ConTeXt Screen Macros / Navigation
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-ref.mkii
+loading         : ConTeXt Structure Macros / Cross Referencing
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/pack-obj.mkii
+loading         : ConTeXt Packaging Macros / Objects
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-lst.mkii
+loading         : ConTeXt Structure Macros / Lists
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-itm.mkii
+loading         : ConTeXt Structure Macros / Itemgroups
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-des.mkii
+loading         : ConTeXt Structure Macros / Descriptions
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-mat.mkii
+loading         : ConTeXt Structure Macros / Math Fundamentals
+warning         : \count \supersubmode is already defined (\relax it first)
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-syn.mkii
+loading         : ConTeXt Structure Macros / Synonyms and Sorts
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-sys.mkii
+loading         : ConTeXt Core Macros / System
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-ini.mkii
+loading         : ConTeXt Page Macros / Initializations
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-bck.mkii
+loading         : ConTeXt Page Macros / Backgrounds
+warning         : \dimen \pagedepth is already defined (\relax it first)
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-not.mkii
+loading         : ConTeXt Page Macros / Footnotes
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-one.mkii
+loading         : ConTeXt Page Macros / Default Routine
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-lay.mkii
+loading         : ConTeXt Page Macros / Layout Specification
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-log.mkii
+loading         : ConTeXt Page Macros / Logos
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-txt.mkii
+loading         : ConTeXt Page Macros / Texts
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-sid.mkii
+loading         : ConTeXt Page Macros / Side Floats
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-flt.mkii
+loading         : ConTeXt Structure Macros / Float Numbering
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-mis.mkii
+loading         : ConTeXt Page Macros / Misc Float Things
+layout          : margeblokken actief
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-mul.mkii
+loading         : ConTeXt Page Macros / Simple Multi Column
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-set.mkii
+loading         : ConTeXt Page Macros / Column Sets
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/pack-lyr.mkii
+loading         : ConTeXt Packaging Macros / Layers
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-mak.mkii
+loading         : ConTeXt Page Macros / MakeUp
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-pag.mkii
+loading         : ConTeXt Structure Macros / Numbering
+warning         : \count \pageno is already defined (\relax it first)
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-lin.mkii
+loading         : ConTeXt Core Macros / Line Numbering
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-par.mkii
+loading         : ConTeXt Page Macros / Paragraph Numbering
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-mar.mkii
+loading         : ConTeXt Page Macros / Maginal Things
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-job.mkii
+loading         : ConTeXt Core Macros / Job Handling
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-sec.mkii
+loading         : ConTeXt Structure Macros / Sectioning
+systeem         : markering deel gedefinieerd [deel]
+systeem         : markering deelnummer gedefinieerd [deelnummer]
+systeem         : markering hoofdstuk gedefinieerd [hoofdstuk]
+systeem         : markering hoofdstuknummer gedefinieerd [hoofdstuknummer]
+systeem         : markering paragraaf gedefinieerd [paragraaf]
+systeem         : markering paragraafnummer gedefinieerd [paragraafnummer]
+systeem         : markering subparagraaf gedefinieerd [subparagraaf]
+systeem         : markering subparagraafnummer gedefinieerd [subparagraafnummer
+]
+systeem         : markering subsubparagraaf gedefinieerd [subsubparagraaf]
+systeem         : markering subsubparagraafnummer gedefinieerd [subsubparagraaf
+nummer]
+systeem         : markering subsubsubparagraaf gedefinieerd [subsubsubparagraaf
+]
+systeem         : markering subsubsubparagraafnummer gedefinieerd [subsubsubpar
+agraafnummer]
+systeem         : markering subsubsubsubparagraaf gedefinieerd [subsubsubsubpar
+agraaf]
+systeem         : markering subsubsubsubparagraafnummer gedefinieerd [subsubsub
+subparagraafnummer]
+systeem         : markering titel gedefinieerd [titel]
+systeem         : markering titelnummer gedefinieerd [titelnummer]
+systeem         : markering onderwerp gedefinieerd [onderwerp]
+systeem         : markering onderwerpnummer gedefinieerd [onderwerpnummer]
+systeem         : markering subonderwerp gedefinieerd [subonderwerp]
+systeem         : markering subonderwerpnummer gedefinieerd [subonderwerpnummer
+]
+systeem         : markering subsubonderwerp gedefinieerd [subsubonderwerp]
+systeem         : markering subsubonderwerpnummer gedefinieerd [subsubonderwerp
+nummer]
+systeem         : markering subsubsubonderwerp gedefinieerd [subsubsubonderwerp
+]
+systeem         : markering subsubsubonderwerpnummer gedefinieerd [subsubsubond
+erwerpnummer]
+systeem         : markering subsubsubsubonderwerp gedefinieerd [subsubsubsubond
+erwerp]
+systeem         : markering subsubsubsubonderwerpnummer gedefinieerd [subsubsub
+subonderwerpnummer]
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-swd.mkii
+loading         : ConTeXt Structure Macros / Sectionworlds
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-blk.mkii
+loading         : ConTeXt Structure Macros / Blockmoves
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-imp.mkii
+loading         : ConTeXt Page Macros / Pagebody Building
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/tabl-tbl.mkii
+loading         : ConTeXt Table Macros / Tabulation
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/scrn-int.mkii
+loading         : ConTeXt Screen Macros / Interaction
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/tabl-ntb.mkii
+loading         : ConTeXt Table Macros / Natural Tables
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/tabl-nte.mkii
+loading         : ConTeXt Table Module / Natural Tables Extensions
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/tabl-ltb.mkii
+loading         : ConTeXt Table Macros / Line Tables
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-chi.mkii
+loading         : ConTeXt Language Macros / Chinese
+taal            : geen afbreekpatronen cn voor cn (n=36,e=ec,m=ec) (lang-cn.pat
+,lang-cn.pat)
+taal            : geen afbreekdefinities cn voor cn (n=36,e=ec,m=ec)
+taal            : taal specifieke opties [default-cn] naadloos toegevoegd
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-jap.mkii
+loading         : ConTeXt Language Macros / Japanese
+taal            : geen afbreekpatronen ja voor ja (n=37,e=ec,m=ec) (lang-ja.pat
+,lang-ja.pat)
+taal            : geen afbreekdefinities ja voor ja (n=37,e=ec,m=ec)
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/java-ini.mkii
+loading         : ConTeXt JavaScript Macros / Initialization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/scrn-fld.mkii
+loading         : ConTeXt Screen Macros / Fields
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/scrn-hlp.mkii
+loading         : ConTeXt Screen Macros / Help popups
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-reg.mkii
+loading         : ConTeXt Structure Macros / Register Management
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/font-ini.mkii
+loading         : ConTeXt Font Macros / Initialization
+loading         : Postponed Plain TeX Font Definitions
+korps           : stijl mm (mm) gedefinieerd
+korps           : stijl rm (rm gedefinieerdromaanserifregular)
+korps           : stijl ss (ss gedefinieerdschreefloossanssupport)
+korps           : stijl tt (tt gedefinieerdteletypetypemono)
+korps           : stijl hw (hw gedefinieerdhandschrift)
+korps           : stijl cg (cg gedefinieerdcalligrafie)
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/font-unk.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/font-uni.mkii
+loading         : ConTeXt Font Macros / Unicode
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/font-bfm.mkii
+loading         : ConTeXt Font Macros / Mixed Bold Math Support
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/enco-pfr.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-ini.mkii
+loading         : ConTeXt Typescript Macros / Initialization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/type-def.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/prop-ini.mkii
+loading         : ConTeXt Property Macros / Initialization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/prop-lay.mkii
+loading         : ConTeXt Property Macros / Layers
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/prop-mis.mkii
+loading         : ConTeXt Property Macros / Miscelaneous
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/meta-ini.mkii
+loading         : MetaPost Graphics / Initializations
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/meta-tex.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/meta-pdf.mkii
+loading         : MetaPost Graphics / MPS to PDF
+warning         : \count \nofMParguments is already defined (\relax it first)
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/meta-pag.mkii
+loading         : MetaPost Graphics / Page Data Management
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-flw.mkii
+loading         : ConTeXt Page Macros / Text Flows
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-spr.mkii
+loading         : ConTeXt Page Macros / Spreading
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-plg.mkii
+loading         : ConTeXt Page Macros / Extra Page Building
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-str.mkii
+loading         : ConTeXt Page Macros / Page Streams
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/anch-pgr.mkii
+loading         : ConTeXt Anchoring Macros / Grapics
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/anch-bar.mkii
+loading         : ConTeXt Anchoring Macros / Margin Bars
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/anch-snc.mkii
+loading         : ConTeXt Anchoring Macros / Synchronization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/math-pln.mkii
+loading         : ConTeXt Math Macros / Plain Helpers
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/math-ini.mkii
+loading         : ConTeXt Math Macros / Initializations
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/math-tex.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/math-ams.mkii)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/math-uni.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/math-arr.mkii
+loading         : ConTeXt Math Macros / Arrows
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/math-frc.mkii
+loading         : ConTeXt Math Macros / Fractions
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-fnt.mkii
+loading         : ConTeXt Core Macros / Fonts
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-not.mkii
+loading         : ConTeXt Structure Macros / Note Handling
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/strc-lnt.mkii
+loading         : ConTeXt Structure Macros / Line Notes
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-mis.mkii
+loading         : ConTeXt Core Macros / Misc Commands
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/grph-trf.mkii
+loading         : ConTeXt Graphic Macros / Transformations
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/grph-inc.mkii
+loading         : ConTeXt Graphic Macros / Figure Inclusion
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/grph-fig.mkii
+loading         : ConTeXt Graphic Macros / Figure Handling
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-par.mkii
+loading         : ConTeXt Core Macros / Pararaph Tricks
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/pack-box.mkii
+loading         : ConTeXt Packaging Macros / Boxes
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/page-app.mkii
+loading         : ConTeXt Page Macros / Applications
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/meta-fig.mkii
+loading         : MetaPost Graphics / Stand Alone Graphics
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/lang-spa.tex
+loading         : ConTeXt Language Macros / Spacing
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/xtag-ini.tex
+loading         : ConTeXt XML Macros / Initialization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/xtag-ext.tex
+loading         : ConTeXt XML Macros / Extras
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/xtag-exp.tex
+loading         : ConTeXt XML Macros / Expansion
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/xtag-pre.tex
+loading         : ConTeXt XML Macros / Predefined
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/xtag-xsd.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/xtag-rng.tex)
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/meta-xml.tex
+loading         : MetaPost Graphics / XML Hacks
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/cont-log.tex
+loading         : ConTeXt TeX Logos
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-ctx.mkii
+loading         : ConTeXt Core Macros / Job Control
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-ini.mkii
+loading         : ConTeXt Core Macros / Additional Initialization
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/core-def.mkii
+loading         : ConTeXt Core Macros / Defaults
+symbolen        : symboolset mis wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/symb-mis.tex)
+symbolen        : symboolset mvs wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/symb-mvs.tex)
+symbolen        : symboolset nav wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/symb-nav.tex))
+systeem         : module res-12 geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/x-res-12.tex)))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.mkii
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-tmf.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-siz.mkii))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.tex
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/type-one.mkii))))
+
+ConTeXt  ver: 2009.08.19 17:10 MKII  fmt: 2011.2.4  int: dutch/dutch
+
+specials        : definitiefile dvi wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/spec-dvi.mkii)
+specials        : definitiefile ps wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/spec-ps.mkii)
+specials        : definitiefile tr wordt geladen
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/spec-tr.mkii) )
+Beginning to dump on file cont-nl.fmt
+ (format=cont-nl 2011.2.4)
+44058 strings of total length 739014
+579532 memory locations dumped; current usage is 2804&574100
+41133 multiletter control sequences
+\font\nullfont=nullfont
+0 words of font info for 0 preloaded fonts
+396 hyphenation exceptions
+Hyphenation trie of length 111054 has 4452 ops out of 35111
+  126 for language 35
+  114 for language 34
+  117 for language 32
+  31 for language 31
+  102 for language 30
+  12 for language 28
+  71 for language 27
+  19 for language 26
+  248 for language 25
+  248 for language 24
+  63 for language 23
+  63 for language 22
+  194 for language 21
+  194 for language 20
+  194 for language 19
+  58 for language 18
+  6 for language 17
+  6 for language 16
+  25 for language 15
+  34 for language 14
+  34 for language 13
+  21 for language 12
+  158 for language 11
+  87 for language 10
+  87 for language 9
+  224 for language 8
+  127 for language 7
+  60 for language 6
+  411 for language 5
+  411 for language 4
+  377 for language 3
+  265 for language 2
+  265 for language 1
+0 words of pdfTeX memory
+0 indirect objects
+No pages of output.

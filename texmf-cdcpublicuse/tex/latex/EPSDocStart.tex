@@ -1,0 +1,19 @@
+% argument to usepackage [] needs to be Web if using tex4ht to create html code, Global otherwise
+\usepackage[EPSDoc]{optional}
+
+% Define shorthand commands for linking to public notes; can't be done until optional package loaded
+\input HandoutLinks.tex
+
+% PDF version is being made by compiling the PS document into a PDF using Ghostscript
+\provideboolean{PDFMake}\setboolean{PDFMake}{true}
+
+% If called with option Web, don't make PDF version
+\opt{Web}{\setboolean{PDFMake}{false}}
+
+\input epsWithHyper.tex
+
+\provideboolean{MarginNotes}
+\provideboolean{MarginNotes}\setboolean{MarginNotes}{false}
+\opt{MarginNotesOn}{\setboolean{MarginNotes}{true}}
+
+\input MathDocStart.tex

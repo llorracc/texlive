@@ -1,0 +1,115 @@
+.\" ====================================================================
+.\"  @Troff-man-file{
+.\"     author          = "Nelson H. F. Beebe",
+.\"     version         = "1.02",
+.\"     date            = "30 October 1992",
+.\"     time            = "19:41:35 MST",
+.\"     filename        = "citetags.man",
+.\"     address         = "Center for Scientific Computing
+.\"                        Department of Mathematics
+.\"                        University of Utah
+.\"                        Salt Lake City, UT 84112
+.\"                        USA",
+.\"     telephone       = "+1 801 581 5254",
+.\"     FAX             = "+1 801 581 4148",
+.\"     checksum        = "53174 115 471 4097",
+.\"     email           = "beebe@math.utah.edu (Internet)",
+.\"     codetable       = "ISO/ASCII",
+.\"     keywords        = "bibliography, BibTeX",
+.\"     supported       = "yes",
+.\"     docstring       = "This file contains the UNIX manual pages
+.\"                        for the citetags command, a shell script
+.\"                        that invokes an awk program to extract
+.\"                        citation tags from a LaTeX source file or
+.\"                        .aux file for later use with citefind(1).
+.\"
+.\"                        The checksum field above contains a CRC-16
+.\"                        checksum as the first value, followed by the
+.\"                        equivalent of the standard UNIX wc (word
+.\"                        count) utility output of lines, words, and
+.\"                        characters.  This is produced by Robert
+.\"                        Solovay's checksum utility.",
+.\"  }
+.\" ====================================================================
+.if t .ds Bi B\s-2IB\s+2T\\h'-0.1667m'\\v'0.20v'E\\v'-0.20v'\\h'-0.125m'X
+.if n .ds Bi BibTeX
+.if n .ds La LaTeX
+.if t .ds La L\\h'-0.24m'\\v'-0.15v'\\s-2A\\s+2\\h'-0.15m'\
+\\v'0.15v'T\\h'-0.1667m'\\v'0.20v'E\\v'-0.20v'\\h'-0.125m'X
+.if t .ds Te T\\h'-0.1667m'\\v'0.20v'E\\v'-0.20v'\\h'-0.125m'X
+.if n .ds Te TeX
+.TH CITETAGS 1 "30 October 1992" "Version 1.02"
+.\"======================================================================
+.SH NAME
+citetags \- extract BibTeX citation tags from a LaTeX source or .aux file
+.\"======================================================================
+.SH SYNOPSIS
+.BI citetags " LaTeX source or .aux file >tagsfile"
+.\"======================================================================
+.SH DESCRIPTION
+.B citetags
+extracts \*(Bi\& citation tags from a \*(La\& source file or
+.I .aux
+file and sends them to
+.IR stdout ,
+possibly for later input to
+.BR citefind (1).
+.PP
+.B citetags
+and
+.BR citefind (1)
+can be used to extract from a large \*(Bi\&
+bibliography data base just those bibliography
+entries that are actually used in a particular
+document, perhaps for submission to a publisher,
+or distribution in electronic form.
+.\"======================================================================
+.SH BUGS
+.B citetags
+is not smart enough to incorporate \*(Bi\& cross
+references unless they are themselves cited.
+.PP
+That feature should be added.
+.\"======================================================================
+.SH "SEE ALSO"
+.BR bibclean (1),
+.BR bibextract (1),
+.BR bibindex (1),
+.BR biblook (1),
+.BR bibsort (1),
+.BR bibtex (1),
+.BR citefind (1),
+.BR latex (1),
+.BR nawk (1).
+.\"======================================================================
+.SH FILES
+.\" NB: LIBDIR and BINDIR are substituted for real directory names
+.\"     by a sed script invoked by "make install".
+.TP \w'@LIBDIR@/citetags.awk'u+2n
+@LIBDIR@/citetags.awk
+.BR nawk (1)
+program for tag extraction.
+.TP
+@BINDIR@/citetags
+user-callable shell script to invoke
+.BR nawk (1).
+.\"======================================================================
+.SH AUTHOR
+Nelson H. F. Beebe, Ph.D.
+.br
+Center for Scientific Computing
+.br
+Department of Mathematics
+.br
+University of Utah
+.br
+Salt Lake City, UT 84112
+.br
+USA
+.br
+Tel: +1 801 581 5254
+.br
+FAX: +1 801 581 4148
+.br
+Email: <beebe@math.utah.edu>
+.\"==============================[The End]==============================
