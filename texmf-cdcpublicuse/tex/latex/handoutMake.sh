@@ -20,7 +20,7 @@ rpl '\RequirePackage{perpage}' '%\RequirePackage{perpage}' handoutBody.cls
 # perpage is used only for footnotes on first page of an article, so is not needed for a handout 
 
 echo "% Made by handoutMake.sh" > handoutProvides.txt
-echo "\ProvidesClass{handout}[2019/11/18 LaTeX class for handouts written by Christopher Carroll]" >> handoutProvides.txt
+echo "\ProvidesClass{handout}[2023/03/05 LaTeX class for handouts written by Christopher Carroll]" >> handoutProvides.txt
 
 cat handoutPreamble.cls handoutProvides.txt handoutBody.cls > handout.cls 
 
