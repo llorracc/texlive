@@ -193,11 +193,11 @@ amsmath,amssymb,amsfonts,amsthm
 % citations and bibliography
 \RequirePackage[authoryear]{natbib}
 \AtBeginDocument{\renewcommand{\refname}{\clearpage References}
-\renewcommand\@makefnmark
-  {\mbox{\textsuperscript{\tiny\@thefnmark}}} % Restore footnote defn after titlepage redefines it
-\ifdvi
+  \renewcommand\@makefnmark{\mbox{\textsuperscript{\tiny\@thefnmark}}} % Restore footnote defn after titlepage redefines it
+  \ifdvi % tex4ht cannot handle ushort 
+  \providecommand{\ushort}{}
   \renewcommand{\ushort}{\underline} % ushort seems to not work properly for tex4ht (which compiles using dvi)
-\fi
+  \fi
 }
 
 % captions of figures and tables
