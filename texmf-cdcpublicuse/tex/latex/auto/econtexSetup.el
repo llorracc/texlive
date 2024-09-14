@@ -20,13 +20,13 @@
     "ifthen")
    (TeX-add-symbols
     '("answer" 2)
-    '("handoutM" 1)
     '("handoutD" 1)
-    '("handoutF" 1)
     '("handoutG" 1)
     '("handoutI" 1)
     '("handoutA" 1)
     '("handoutC" 1)
+    '("handoutM" 1)
+    '("handoutF" 1)
     '("CDCFigSideways" 1)
     '("CDCFig" 1)
     '("together" 1)
@@ -42,9 +42,9 @@
     "SolvingMicroDSOPs"
     "MathFactsList"
     "Aggregation"
+    "ELogNormMeanOne"
     "CRRALim"
     "ELogNorm"
-    "ELogNormMeanOne"
     "ELogNormTimes"
     "EulersTheorem"
     "ExpEps"

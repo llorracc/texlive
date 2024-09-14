@@ -2,8 +2,9 @@
  "CDCShortcuts"
  (lambda ()
    (TeX-run-style-hooks
-    "econark")
+    "econark-shortcuts")
    (TeX-add-symbols
+    '("cncl" 1)
     '("pd" 2)
     '("constr" 1)
     "aAgg"

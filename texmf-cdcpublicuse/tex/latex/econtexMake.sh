@@ -1,4 +1,5 @@
 #!/bin/sh
+# 20230325: Remove snapshot from required dependencies; should be optional
 # 20211020: Add \llorraccio for html content at llorracc.github.io
 # 20191212: Change TaxCorp to taxCorp in Shortcuts
 # make "econtex" LaTeX files from raw sources
@@ -17,13 +18,13 @@ ditto handoutShortcuts.sty econtexShortcuts.sty
 # But it is needed to produce the first page of a paper
 # So we uncomment it here
 
-rpl '%\RequirePackage{perpage}' '\RequirePackage{perpage}' econtexBody.cls
+rpl --fixed-strings '%\RequirePackage{perpage}' '\RequirePackage{perpage}' econtexBody.cls
 
 
-rpl '[handout]' '[econtex]' econtexBody.cls
-rpl  'handout'   'econtex'  econtexBody.cls
-rpl  'handout'   'econtex'  econtexPreamble.cls
-rpl  'handout'   'econtex'  econtexBibMake.tex
+rpl --fixed-strings '[handout]' '[econtex]' econtexBody.cls
+rpl --fixed-strings 'handout'   'econtex'  econtexBody.cls
+rpl --fixed-strings 'handout'   'econtex'  econtexPreamble.cls
+rpl --fixed-strings 'handout'   'econtex'  econtexBibMake.tex
 
 
 # 20170703: Add RequirePackage{shapshot} to bejournal.cls so that creation of public archives can exclude unused figures
