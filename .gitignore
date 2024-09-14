@@ -33,6 +33,7 @@ tramp
 
 # AUCTeX auto folder
 /auto/
+auto/
 
 # cask packages
 .cask/
@@ -75,7 +76,7 @@ ipython_config.py
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
 
 # Thumbnails
 ._*
